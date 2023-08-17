@@ -3,9 +3,10 @@ library(tidyverse)
 library(magrittr)
 
 #import data
+setAs("character","myDate", function(from) as.Date(from, format="%d/%m/%Y") ) #not working?? why??
 data <- read.csv('celio_retro_LP_GG_23.csv', 
                  nrows=608,
-                 colClasses=c("Date","integer","factor",
+                 colClasses=c("myDate","integer","factor",
                                                           "numeric", "numeric", "factor",
                                                           "factor", "factor", "factor",
                                                           "factor", "factor", "factor",
@@ -13,7 +14,7 @@ data <- read.csv('celio_retro_LP_GG_23.csv',
                                                           "numeric", "integer", "factor",
                                                           "integer", "integer", "factor",
                                                           "factor", "factor", "factor"
-                                                          ))
+                                                          ),
+                 na.strings=c("", " "))
 str(data)
-tail(data)
-levels(data$surv_dismis)
+model1 <- 
