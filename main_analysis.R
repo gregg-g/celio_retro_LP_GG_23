@@ -1,12 +1,11 @@
-#load packages
+     #load packages
 library(tidyverse)
 library(magrittr)
 
-#import data
-setAs("character","myDate", function(from) as.Date(from, format="%d/%m/%Y") ) #not working?? why??
+     #import data
 data <- read.csv('celio_retro_LP_GG_23.csv', 
                  nrows=608,
-                 colClasses=c("myDate","integer","factor",
+                 colClasses=c("character","integer","factor",
                                                           "numeric", "numeric", "factor",
                                                           "factor", "factor", "factor",
                                                           "factor", "factor", "factor",
@@ -16,5 +15,9 @@ data <- read.csv('celio_retro_LP_GG_23.csv',
                                                           "factor", "factor", "factor"
                                                           ),
                  na.strings=c("", " "))
+data$date_pres <- as.Date(data$date_pres, format="%m/%d/%y")
 str(data)
+     # summarize data
+
+     # Model everything together
 model1 <- 
