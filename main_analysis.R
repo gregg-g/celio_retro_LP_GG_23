@@ -54,9 +54,9 @@ summary(model5)
 model6 <- logistf(postop_reflux ~ anes_time + bowel_resect + enterot + preop_antibio +
                     intraop_antibio + postop_antibio_days + postop_antibio_addnl +
                     postop_nsaid_num + postop_nsaid_days + postop_lido +
-                    postop_alpha2 + postop_butor + postop_ket, data=mydata)
+                    postop_alpha2 + postop_butor + postop_ket, data=data)
 summary(model6)
-mydata <- data
+
 drop1(model6, data = data)
 model6a <- update(model6, .~. - anes_time - postop_antibio_days - postop_nsaid_days -
                     postop_butor - postop_ket)
