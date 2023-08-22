@@ -1,0 +1,81 @@
+---
+title: "celiotomy retrospective analysis 2023"
+author: "Gregg Griffenhagen"
+date: "2023-08-22"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(magrittr)
+library(logistf)
+
+data <- read.csv('celio_retro_LP_GG_23.csv', 
+                 nrows=608,
+                 colClasses=c("character","integer","factor",
+                                                          "numeric", "numeric", "factor",
+                                                          "factor", "factor", "factor",
+                                                          "factor", "factor", "factor",
+                                                          "factor", "factor", "factor",
+                                                          "numeric", "integer", "factor",
+                                                          "integer", "integer", "factor",
+                                                          "factor", "factor", "factor"
+                                                          ),
+                 na.strings=c("", " "))
+data$date_pres <- as.Date(data$date_pres, format="%m/%d/%y")
+str(data)
+```
+
+#Model primary outcome of incisional infection vs variables that make sense:
+
+```{r}
+model_all <- logistf(incis_infect ~ enterot + bowel_resect + preop_antibio + intraop_antibio +
+                       anes_time + recov_time + recov_qual, data = data)
+summary(model_all)
+```
+##Note that none of the variables in the full model are significant. Backwards elimination removed all of the variables and resulted in a model of (incisional infection ~ 1).
+## The next step would be to trial individual sets of variables that may be significant
+
+### First try enterotomy or resection:
+```{r}
+model1 <- logistf(incis_infect ~ enterot + bowel_resect,
+                  data = data)
+summary(model1)
+```
+### Antibiotic use:
+```{r}
+model2 <- logistf(incis_infect ~ preop_antibio + intraop_antibio,
+                  data = data)
+summary(model2)
+```
+### Intraoperative antibiotic type or timing?
+```{r}
+model3 <- logistf(incis_infect ~ intraop_antibio_type + intraop_antibio_time,
+                  data = data)
+summary(model3)
+```
+### Anesthesia variables?
+```{r}
+model4 <- logistf(incis_infect ~ anes_time + recov_time + recov_qual,
+                  data = data)
+summary(model4)
+```
+### Association with NSAID use?
+```{r}
+model5 <- logistf(incis_infect ~ postop_nsaid_num + postop_nsaid_days,
+                  data = data)
+summary(model5)
+```
+
+## None of these produced significant independent predictors without possible confounding. The use of multiple days of NSAIDs is likely due to the infection, not the cause of the infection.
+
+# How about modeling postop reflux?
+```{r}
+model6 <- logistf(postop_reflux ~ anes_time + bowel_resect + enterot + preop_antibio +
+                    intraop_antibio + postop_antibio_days + postop_antibio_addnl +
+                    postop_nsaid_num + postop_nsaid_days + postop_lido +
+                    postop_alpha2 + postop_butor + postop_ket, data=data)
+summary(model6)
+```
+

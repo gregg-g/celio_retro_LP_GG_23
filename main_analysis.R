@@ -3,6 +3,7 @@ library(tidyverse)
 library(magrittr)
 library(logistf)
 
+
      #import data
 data <- read.csv('celio_retro_LP_GG_23.csv', 
                  nrows=608,
