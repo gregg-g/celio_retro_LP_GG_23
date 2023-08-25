@@ -79,3 +79,60 @@ model6 <- logistf(postop_reflux ~ anes_time + bowel_resect + enterot + preop_ant
 summary(model6)
 ```
 
+## Some significant predictors. Will need to decrease complexity of the model by 
+## dropping least significant terms. Automatic selection dosn't work due to model 
+## separation, so will do backwards selection by hand.
+
+# The final model includes postoperative lidocaine and alpha-2 agonists as significant predictors:
+```{r}
+model6d <- logistf(postop_reflux ~ postop_lido + postop_alpha2, data = data)
+summary(model6d)
+
+or <- exp(model6d$coefficients)
+or.lower <- exp(model6d$ci.lower)
+or.upper <- exp(model6d$ci.upper)
+or.table <- round(cbind (or, or.lower, or.upper),3)
+or.table
+```
+
+## It is interesting that both lidocaine and alpha-2s significantly increased the odds of postop reflux. However, it is quite possible that the distribution of the data causes issues with the modeling. For example, if you look at the frequency table for lidocaine and reflux, there was only one patient that was refluxing but didn't receive lidocaine, but there were 126 that continued to reflux while still on IV lidocaine...
+```{r}
+frequency_reflux2 <- ftable(reflux = data$postop_reflux, lidocaine = data$postop_lido)
+frequency_reflux2
+```
+
+## The numbers for lidocaine plus alpha-2s are better distributed, so I find it likely that continued administration of alpha-2 agonists is associated with more patients refluxing - but it is also likely that these patients were more painful or needed to be sedated more for continued treatments.
+
+```{r}
+frequency_reflux <- ftable(reflux = data$postop_reflux, lidocaine = data$postop_lido, alpha2 = data$postop_alpha2)
+frequency_reflux
+```
+
+## In the end, I'm not sure that any of these predictors are truly valid indicators.
+
+# For other complications, the full model wasn't particularly interesting, but after backwards selection by hand again recovery quality, enterotomy (yes), the addition of additional antibiotics postoperatively (other than pen/gent), and the number of types of NSAIDs were all predictive:
+
+```{r}
+model7f <- update(model7e, .~. - postop_ket - postop_alpha2)
+summary(model7f)
+     
+or2 <- exp(model7f$coefficients)
+or.lower2 <- exp(model7f$ci.lower)
+or.upper2 <- exp(model7f$ci.upper)
+or.table2 <- round(cbind (or2, or.lower2, or.upper2),3)
+or.table2
+```
+
+## While good and fair recoveries were not predictive (as opposed to excellent), I had to leave them in the model because poor recoveries were associated with an increase in the incidence of 'other' complications. Enterotomies decreased the incidence of these other complications by almost half.
+
+# Finally, nothing in the model was particularly predictive of survival to dismissal, but the number of days in the hospital was weakly associated (possibly)...
+```{r}
+model8 <- logistf(surv_dismis ~ days_hosp, data = data)
+summary(model8)
+     # The answer is 'possibly'...
+or3 <- exp(model8$coefficients)
+or.lower3 <- exp(model8$ci.lower)
+or.upper3 <- exp(model8$ci.upper)
+or.table3 <- round(cbind (or3, or.lower3, or.upper3),3)
+or.table3
+```
