@@ -67,10 +67,16 @@ model6c <- update(model6b, .~. - bowel_resect - preop_antibio - postop_antibio_a
 summary(model6c)
 model6d <- update(model6c, .~. - enterot)
 summary(model6d)
-log(model6d$coefficients)
+     # Is there an interaction between lidocaine and alpha2s?
+model6e <- logistf(postop_reflux ~ postop_lido*postop_alpha2, data = data)
+summary(model6e)
+     #Interaction is not significant, so will drop and use 6d
 
-frequency_reflux <- ftable(reflux_yes = data$postop_reflux, lidocaine = data$postop_lido, alpha2 = data$postop_alpha2)
+frequency_reflux <- ftable(reflux = data$postop_reflux, lidocaine = data$postop_lido, alpha2 = data$postop_alpha2)
 frequency_reflux
+
+frequency_reflux2 <- ftable(reflux = data$postop_reflux, lidocaine = data$postop_lido)
+frequency_reflux2
 
 or <- exp(model6d$coefficients)
 or.lower <- exp(model6d$ci.lower)
@@ -78,11 +84,9 @@ or.upper <- exp(model6d$ci.upper)
 or.table <- round(cbind (or, or.lower, or.upper),3)
 or.table
 
-model7 <- logistf(other_comp ~ anes_time + recov_time +
-                    recov_qual + bowel_resect + enterot + preop_antibio +
-                    intraop_antibio + postop_antibio_days + postop_antibio_addnl +
-                    postop_nsaid_num + postop_nsaid_days + postop_lido +
-                    postop_alpha2 + postop_butor + postop_ket, data=mydata)
+other_comp_data <- data[,c(4:12, 14, 17:24)] %>% drop_na()
+
+model7 <- logistf(other_comp ~ ., data = other_comp_data) 
 summary(model7)
 drop1(model7, data = data)
 model7a <- update(model7, .~. - recov_quality - preop_antibio - postop_lido - postop_butor)
@@ -97,16 +101,25 @@ drop1(model7d, data = data)
 model7e <- update(model7d, .~. - bowel_resect)
 drop1(model7e, data = data)
 summary(model7e)
+     # some less significant predictors, can remove by hand or try automatic backward
+     # selection with MASS and AIC
 
-or2 <- exp(model7e$coefficients)
-or.lower2 <- exp(model7e$ci.lower)
-or.upper2 <- exp(model7e$ci.upper)
+model.null.other <- logistf(other_comp ~ 1, data = other_comp_data) # I know, terrible syntax for naming
+step.model.other <- MASS::stepAIC(model.null.other, scope = c(lower = model.null.other, upper = model7), trace = TRUE)
+     # Just removes everything
+model7f <- update(model7e, .~. - postop_ket - postop_alpha2)
+summary(model7f)
+     # All terms are now significant in the model
+or2 <- exp(model7f$coefficients)
+or.lower2 <- exp(model7f$ci.lower)
+or.upper2 <- exp(model7f$ci.upper)
 or.table2 <- round(cbind (or2, or.lower2, or.upper2),3)
 or.table2
 
+     # Is the number of days in the hospital predictive of dismissal?
 model8 <- logistf(surv_dismis ~ days_hosp, data = data)
 summary(model8)
-
+     # The answer is 'possibly'...
 or3 <- exp(model8$coefficients)
 or.lower3 <- exp(model8$ci.lower)
 or.upper3 <- exp(model8$ci.upper)
@@ -114,7 +127,7 @@ or.table3 <- round(cbind (or3, or.lower3, or.upper3),3)
 or.table3
 
 surv_dismis_data <- data[,c(2:12, 14, 17:24)] %>% drop_na()
-
+     # Is anything in the data predictive of survival to dismissal?
 model9 <- logistf(surv_dismis ~ .,
                   data = surv_dismis_data)
 summary(model9)
