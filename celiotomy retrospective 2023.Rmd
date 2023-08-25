@@ -113,7 +113,9 @@ frequency_reflux
 # For other complications, the full model wasn't particularly interesting, but after backwards selection by hand again recovery quality, enterotomy (yes), the addition of additional antibiotics postoperatively (other than pen/gent), and the number of types of NSAIDs were all predictive:
 
 ```{r}
-model7f <- update(model7e, .~. - postop_ket - postop_alpha2)
+model7f <- logistf(other_comp ~ recov_qual + enterot + postop_antibio_addnl +
+                     postop_nsaid_num,
+                   data = data)
 summary(model7f)
      
 or2 <- exp(model7f$coefficients)
