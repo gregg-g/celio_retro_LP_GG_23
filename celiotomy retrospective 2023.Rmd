@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(magrittr)
 library(logistf)
+library(Hmisc)
 
 data <- read.csv('celio_retro_LP_GG_23.csv', 
                  nrows=608,
@@ -25,6 +26,12 @@ data <- read.csv('celio_retro_LP_GG_23.csv',
                  na.strings=c("", " "))
 data$date_pres <- as.Date(data$date_pres, format="%m/%d/%y")
 str(data)
+```
+
+# Data summary
+```{r}
+summary_table <- Hmisc::describe(data[,-1])    # The -1 so date is removed
+summary_table
 ```
 
 #Model primary outcome of incisional infection vs variables that make sense:
