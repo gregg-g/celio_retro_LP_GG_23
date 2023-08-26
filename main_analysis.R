@@ -21,7 +21,8 @@ data$date_pres <- as.Date(data$date_pres, format="%m/%d/%y")
 str(data)
 
      # summarize data
-
+summary_table <- Hmisc::describe(data[,-1])    # The -1 so date is removed
+summary_table
 
      # Model everything together
 model_all <- logistf(incis_infect ~ enterot + bowel_resect + preop_antibio + intraop_antibio +
