@@ -1,0 +1,609 @@
+﻿date_pres,days_hosp,surv_dismis,anes_time,recov_time,recov_qual,enterot,bowel_resect,incis_infect,postop_reflux,other_comp,preop_antibio,preop_antibio_type,intraop_antibio,intraop_antibio_type,intraop_antibio_time,postop_antibio_days,postop_antibio_addnl,postop_nsaid_num,postop_nsaid_days,postop_lido,postop_alpha2,postop_butor,postop_ket
+1/11/11,7,N,3.75,1.5,fair,N,Y,N,Y,Y,N,,Y,pen gent,1.25,7,Y,1,7,Y,Y,N,N
+6/5/13,8,Y,2.25,,fair,N,N,N,N,N,N,,N,,,1,N,2,1,N,Y,N,N
+5/6/09,3,Y,1.25,1,good,N,N,N,N,N,N,,N,,,2,N,1,2,N,N,N,N
+4/13/08,6,Y,2.25,1,good,Y,N,N,N,N,N,,N,,,4,Y,1,5,N,N,N,N
+7/21/08,4,Y,1.5,1.2,fair,N,N,N,N,Y,Y,pen gent,N,,,2,N,1,4,Y,Y,N,N
+8/21/08,6,Y,2.25,1.75,good,N,N,N,N,Y,N,,Y,pen gent,0.25,5,N,1,4,N,Y,Y,Y
+1/19/09,4,Y,1.6,0.75,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,2,Y,N,N,N
+6/16/16,9,Y,3.25,2.5,poor,Y,N,N,N,Y,N,,N,,,5,Y,1,2,Y,Y,Y,N
+10/12/10,5,Y,3,1.5,good,N,Y,Y,N,N,N,,N,,,10,Y,1,3,Y,N,N,Y
+7/14/11,9,Y,3.5,1.6,good,N,Y,N,Y,N,N,,N,,,7,N,1,1,Y,N,N,N
+5/20/10,3,N,2.25,1,fair,Y,N,N,Y,Y,N,,N,,,3,N,1,3,Y,Y,N,N
+5/13/08,6,Y,0.25,1,good,N,N,N,N,Y,N,,N,,,1,N,1,3,N,N,N,N
+6/20/10,7,Y,2.5,1,fair,N,Y,N,Y,Y,N,,N,,,2,N,1,6,Y,N,N,N
+9/11/14,4,Y,2,1.5,poor,N,N,N,N,Y,N,,N,,,4,Y,1,4,Y,N,N,N
+10/8/14,8,Y,3.75,1.5,fair,Y,Y,N,N,Y,N,,Y,pen gent,0.25,5,N,1,5,Y,Y,Y,N
+8/7/13,4,Y,2.25,0.75,fair,Y,N,N,N,N,N,,N,,,1,N,2,4,Y,N,N,N
+8/21/10,4,Y,2.25,,good,Y,N,N,N,N,N,,Y,pen gent,0.25,2,N,1,2,N,Y,Y,Y
+5/18/10,5,Y,2.25,0.75,good,N,N,N,N,N,N,,Y,pen gent,0.5,4,Y,1,4,Y,N,N,N
+9/2/11,4,Y,2,0.75,good,Y,N,N,N,N,N,,Y,gent,0,1,N,1,3,N,N,N,N
+8/5/14,6,Y,2.5,2,good,Y,N,N,N,N,N,,N,,,4,N,1,3,N,Y,Y,Y
+5/11/11,4,N,2.6,1,good,N,N,N,Y,N,N,,Y,pmx,0.5,2,N,1,2,Y,Y,N,N
+5/11/11,4,N,2,1,good,Y,N,N,N,Y,N,,Y,pen gent,0.25,3,Y,1,3,Y,Y,N,N
+4/26/10,42,N,2,1,good,N,N,Y,N,N,N,,Y,pen gent,0,37,Y,2,42,Y,Y,Y,N
+4/26/10,42,N,5,0.3,fair,N,Y,Y,N,Y,N,,Y,pen cefa,0,37,Y,2,42,Y,Y,Y,N
+9/11/14,4,Y,3.5,1,good,Y,N,N,N,Y,N,,N,,,4,N,1,3,Y,Y,Y,N
+5/20/08,4,N,2,1,good,N,N,N,N,N,N,,Y,pen gent,1,1,N,1,3,N,N,N,N
+3/1/13,7,Y,2,2,good,Y,N,N,N,N,N,,N,,,4,Y,2,3,Y,Y,Y,Y
+8/26/09,6,Y,1.5,1,good,Y,N,N,N,N,Y,cefa gent,N,,,9,Y,1,9,Y,Y,Y,N
+6/27/08,1,N,4.25,1.25,poor,N,Y,N,N,Y,N,,Y,pmx,0.75,1,Y,1,1,Y,Y,N,Y
+2/6/10,9,N,2,1,good,N,N,Y,Y,Y,N,,Y,pen gent,0.25,7,Y,1,7,Y,Y,N,N
+6/27/08,3,Y,2,1.25,good,N,N,N,N,Y,N,,N,,,3,N,1,3,Y,N,N,N
+1/20/12,3,Y,3.5,,good,Y,N,N,N,Y,N,,Y,pmx,1.75,3,N,1,3,Y,Y,N,N
+5/29/13,6,Y,4,1,good,Y,Y,Y,N,N,N,,N,,,5,N,1,5,Y,N,N,N
+2/25/09,10,Y,3.25,2.5,fair,Y,N,N,N,N,N,,Y,pmx,1,8,Y,1,8,Y,N,N,N
+11/18/09,3,Y,0.25,0.5,good,N,N,N,N,N,N,,N,,,1,N,1,2,N,Y,Y,N
+5/21/08,11,Y,3.5,1,good,Y,N,N,N,N,N,,N,,,5,Y,1,4,Y,N,N,N
+9/7/08,4,Y,1.75,1.75,fair,N,N,N,Y,N,N,,N,,,1,N,1,1,Y,Y,N,Y
+8/29/12,2,Y,2.25,1,good,Y,N,N,N,N,N,,Y,pen,0.75,1,Y,1,1,Y,Y,N,Y
+10/10/12,7,N,3.25,1.5,fair,Y,Y,N,Y,N,N,,N,,,5,N,1,5,Y,N,Y,N
+11/16/08,5,Y,1.25,0.25,poor,N,N,N,N,Y,N,,N,,,4,Y,1,3,Y,N,N,N
+2/23/08,3,Y,3.75,0.5,good,N,N,N,N,N,N,,N,,,2,N,1,2,N,N,N,N
+9/3/10,7,Y,1.75,1.25,fair,N,N,N,N,Y,N,,N,,,7,Y,3,7,Y,N,N,N
+1/2/09,4,Y,2,1.25,good,Y,N,N,N,Y,N,,N,,,2,N,1,4,Y,N,N,Y
+6/23/08,40,Y,1.25,1,good,N,N,N,N,Y,N,,Y,pen gent,0.5,57,Y,1,57,Y,Y,Y,Y
+1/30/08,3,Y,1,0.75,good,N,N,N,N,N,N,,N,,,1,N,1,3,Y,N,N,N
+4/12/10,3,Y,1.75,1,good,N,N,N,N,N,N,,N,,,2,N,1,1,Y,N,N,N
+3/4/08,3,Y,1.5,1.25,fair,N,N,N,N,Y,N,,N,,,1,Y,1,4,Y,Y,N,N
+3/13/08,8,Y,1.5,1.75,good,N,N,N,Y,Y,N,,Y,pen gent,0.5,8,Y,2,8,Y,N,N,N
+10/19/13,5,N,3.25,2,fair,N,N,N,Y,Y,N,,N,,,3,N,2,5,Y,N,N,N
+3/17/08,3,Y,2.75,0.5,fair,N,N,N,N,Y,N,,N,,0,1,N,1,1,N,N,N,Y
+7/8/09,2,N,3.75,0.75,good,Y,N,N,Y,Y,Y,pen gent,Y,gent,0,1,Y,1,1,Y,N,N,N
+4/24/08,10,Y,2.25,2,good,Y,N,N,Y,Y,N,,Y,pen,0,7,Y,1,7,Y,Y,Y,N
+5/31/08,6,Y,1.5,1.25,good,Y,N,N,N,Y,N,,N,,,11,Y,1,4,Y,N,N,N
+7/21/09,10,N,3,,,N,Y,N,Y,N,N,,N,,,8,Y,1,8,Y,Y,Y,N
+6/14/08,3,Y,1,0.5,good,N,N,N,N,N,N,,N,,,2,N,1,2,N,Y,N,N
+6/19/08,13,Y,2,1,good,N,N,N,Y,Y,N,,N,,,5,Y,1,5,Y,Y,Y,N
+6/23/08,4,Y,2,1,good,Y,N,N,N,N,N,,N,,,2,Y,1,2,Y,Y,N,Y
+12/6/11,9,Y,2.25,0.75,good,Y,N,N,N,N,N,,N,,,6,N,1,6,Y,Y,Y,N
+7/19/08,4,Y,2,1.25,good,Y,N,N,N,N,N,,N,,,2,Y,1,2,Y,Y,N,Y
+7/29/08,8,Y,2.5,1,fair,Y,N,N,N,N,N,,N,,,2,N,1,1,N,N,N,Y
+8/1/08,3,Y,1.5,0.75,fair,N,N,N,N,N,N,,N,,,3,N,1,3,Y,Y,Y,Y
+8/5/08,3,Y,2.25,1,good,N,N,N,N,N,N,,N,,,1,Y,1,2,Y,Y,N,N
+8/7/08,5,Y,2.25,1.5,good,N,N,N,N,Y,N,,N,,,5,N,1,5,N,N,N,N
+8/8/08,4,Y,2,1.25,good,N,N,N,N,N,N,,N,,,3,N,1,3,Y,Y,Y,Y
+8/9/08,4,Y,2.25,1.75,good,Y,N,N,N,N,N,,N,,,2,Y,1,2,Y,Y,N,Y
+8/10/08,3,Y,1.75,1.25,good,N,N,N,N,N,N,,N,,,2,N,1,2,Y,Y,N,Y
+8/12/08,7,Y,1.75,1,good,Y,N,N,N,N,N,,N,,,6,N,1,6,Y,Y,N,Y
+8/28/08,3,Y,1.75,2,good,Y,N,N,N,N,N,,Y,gent,0,1,N,1,2,Y,N,N,N
+4/16/11,6,Y,3,1.5,poor,Y,N,N,N,N,N,,Y,,1,4,Y,1,4,Y,N,N,N
+8/31/08,4,Y,2,1,good,N,N,N,N,Y,N,,N,,,1,N,1,1,Y,Y,Y,Y
+9/2/08,3,Y,1,0.75,good,N,N,N,N,N,N,,N,,,1,N,1,2,N,Y,N,Y
+9/3/08,4,Y,1.25,1,fair,N,N,N,N,N,N,,Y,gent cefa,0,0,N,1,3,N,Y,N,Y
+9/4/08,5,Y,1.5,1.25,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,2,N,Y,Y,Y
+5/12/11,2,N,3,0.5,fair,Y,N,N,N,Y,N,,Y,pen gent pmx,0,2,Y,1,2,Y,N,N,N
+10/7/08,2,Y,2,0.75,fair,Y,N,N,N,N,N,,N,,,3,Y,1,2,Y,Y,N,N
+10/10/08,4,Y,2.25,2.25,good,N,N,N,N,N,N,,N,,,3,N,1,4,Y,N,N,Y
+10/11/08,3,Y,1.75,1,fair,N,N,N,Y,N,N,,N,,,3,N,1,2,Y,Y,N,Y
+10/17/08,3,Y,2,1.25,good,Y,N,N,N,N,N,,N,,,1,N,1,3,N,Y,Y,N
+10/17/08,4,Y,2,,,N,N,N,N,N,N,,N,,,3,N,1,1,Y,Y,N,Y
+11/8/08,11,Y,2.5,1.25,fair,Y,N,N,N,N,N,,N,,,2,N,1,1,Y,Y,N,N
+11/12/08,4,Y,1.25,1,good,N,N,Y,N,Y,N,,N,,,1,N,1,2,Y,Y,N,Y
+12/28/08,2,Y,1.25,,,N,N,N,Y,Y,N,,Y,pen gent,0.25,1,N,2,6,Y,N,N,N
+1/4/09,7,Y,2.5,0.5,fair,Y,N,N,N,Y,N,,N,,,2,Y,2,2,Y,Y,N,N
+1/22/09,8,Y,2.25,1,fair,N,Y,N,N,N,N,,N,,,2,N,2,7,Y,N,Y,N
+9/30/11,9,Y,4.5,,,Y,Y,N,N,Y,N,,Y,pen gent,0.25,7,Y,1,5,Y,N,Y,N
+3/20/10,10,Y,3.5,1.5,good,N,Y,N,N,N,N,,Y,pmx,0.75,6,Y,1,5,Y,Y,N,N
+12/8/17,8,Y,3,0.5,fair,Y,N,Y,N,Y,N,,N,,,6,Y,2,10,Y,N,Y,Y
+2/8/09,4,Y,2,1,good,N,N,N,N,N,N,,Y,pen gent,1.25,1,N,1,2,Y,N,N,N
+2/10/09,5,N,2.25,1.75,poor,N,N,N,Y,N,N,,Y,pen gent,0,4,Y,1,4,Y,Y,Y,Y
+2/23/09,6,Y,2.75,0.5,good,N,N,N,N,N,N,,Y,pen gent,0,2,N,1,1,N,Y,Y,Y
+3/4/09,3,Y,1.75,1.5,good,N,N,N,N,N,N,,N,,,12,Y,1,2,Y,N,N,N
+7/25/14,3,Y,1.25,0.75,good,N,N,N,N,Y,N,,Y,pen gent,1,4,Y,2,4,Y,Y,Y,Y
+3/10/09,3,Y,1.75,0.75,fair,Y,N,N,N,N,N,,N,,,1,N,1,1,N,N,N,N
+3/22/09,4,Y,1.5,0.75,good,N,N,N,N,N,N,,N,,,1,N,2,2,N,N,N,N
+4/8/09,3,Y,1,,,N,N,N,N,Y,N,,N,,,9,Y,1,8,N,N,N,N
+4/11/09,6,N,2.75,2,poor,Y,Y,N,Y,Y,N,,Y,pmx,0.5,5,Y,1,3,Y,N,N,N
+4/30/09,11,N,3,,,N,N,Y,Y,Y,N,,N,,,11,Y,1,11,Y,Y,N,Y
+5/1/09,6,Y,3,1.25,fair,Y,Y,N,N,N,N,,Y,pen gent,0,3,Y,1,3,Y,Y,N,N
+5/13/09,13,Y,3.25,0.25,good,N,Y,N,N,Y,N,,Y,pmx,2,2,Y,1,12,Y,Y,Y,N
+5/21/09,13,Y,2.75,0.75,fair,N,N,Y,N,N,N,,Y,pen gent,0,11,Y,1,10,Y,Y,Y,N
+3/31/10,6,N,2,1.5,poor,Y,N,N,N,Y,N,,Y,pmx,0.5,5,Y,1,5,Y,N,N,N
+9/26/16,5,Y,2.5,1.5,fair,N,Y,N,N,N,N,pen gent,N,,,3,N,1,4,Y,N,N,N
+6/8/09,12,N,1,0.75,good,N,N,Y,Y,Y,N,,Y,metro,0.25,11,Y,1,12,Y,Y,Y,N
+6/9/09,6,Y,2,1,good,Y,N,Y,N,N,N,,Y,enro pmx,0,1,Y,1,1,Y,N,N,N
+6/17/09,8,Y,1.75,1.25,good,Y,N,N,N,Y,N,,Y,pmx,1,20,Y,2,6,Y,N,N,N
+6/23/16,6,N,4,1.25,poor,N,Y,N,Y,Y,Y,pen gent,N,,,1,N,2,5,Y,Y,Y,N
+6/23/09,5,Y,1,,,N,N,N,Y,N,N,,N,,,2,Y,1,3,Y,Y,Y,N
+6/28/09,5,Y,2.5,2,fair,Y,N,N,Y,N,N,,Y,pmx,1,4,Y,1,2,Y,N,N,N
+7/1/09,1,N,2.5,1.25,poor,N,N,N,N,Y,N,,N,,,1,N,1,1,N,Y,Y,Y
+7/10/09,7,Y,2.75,1.5,good,N,N,N,Y,Y,N,,Y,pen,0,3,Y,1,4,Y,Y,Y,Y
+10/12/10,1,N,3,0.25,poor,N,N,N,N,Y,N,,Y,pen gent,0.5,2,Y,1,2,Y,Y,N,N
+7/14/09,6,Y,2,1,fair,Y,N,N,N,N,N,,N,,,1,N,1,2,Y,N,N,N
+7/16/09,2,Y,1.5,1.75,good,Y,N,N,N,N,N,,N,,,2,Y,1,2,Y,N,N,N
+8/2/09,6,Y,2,1.5,fair,N,N,N,N,N,N,,N,,,3,N,1,4,Y,N,N,N
+8/4/09,3,Y,2.5,0.75,good,Y,N,N,N,N,N,,N,,,2,N,1,1,N,N,N,N
+8/5/09,5,Y,1.75,0.5,fair,Y,N,N,N,Y,N,,N,,,12,Y,1,2,N,N,N,N
+8/5/09,7,Y,3,1.25,fair,N,Y,N,N,N,N,,Y,pen,0,5,Y,1,3,Y,Y,N,N
+8/7/09,4,Y,1.75,1,good,Y,N,N,N,N,N,,N,,,3,Y,1,4,N,N,N,N
+8/13/09,6,Y,2.5,0.75,good,Y,N,N,N,N,N,,N,,,13,Y,1,1,N,N,N,N
+8/22/09,4,Y,1.5,1.5,fair,N,N,N,N,N,N,,N,,,13,Y,1,2,N,N,N,N
+6/13/11,8,Y,2,0.75,poor,Y,N,N,N,Y,N,,Y,gent cefa pmx,1,5,Y,2,4,Y,Y,Y,N
+9/25/09,5,Y,3,0.5,fair,N,N,N,N,Y,N,,N,,,3,N,1,3,Y,Y,N,Y
+8/2/15,3,Y,2,1.5,good,Y,N,N,N,N,N,,N,,,1,N,1,2,Y,N,N,N
+10/15/09,2,Y,1,1.25,good,N,N,N,N,N,N,,N,,,1,N,1,1,N,N,N,N
+11/18/09,2,Y,1.5,1.25,good,N,N,N,N,N,N,,Y,pen gent,0,1,N,1,1,N,N,N,N
+11/21/09,3,Y,2,1,fair,Y,N,N,Y,Y,N,,Y,pen gent,0,3,N,1,3,N,N,Y,Y
+1/16/10,5,Y,2,1,fair,N,N,N,N,N,N,,N,,,3,N,1,2,N,N,N,N
+1/19/10,2,Y,2.5,2,poor,Y,N,N,N,N,N,,N,,,2,N,1,3,Y,Y,Y,Y
+10/7/13,6,Y,2.25,1,poor,N,Y,N,N,N,N,,N,,,2,N,1,3,Y,N,N,N
+1/28/10,5,Y,2,0.75,fair,Y,N,N,N,N,N,,Y,pen gent,0.25,4,N,1,4,N,Y,Y,Y
+2/2/10,1,N,3.5,1.25,good,N,Y,N,N,Y,N,,Y,pen gent pmx,0.5,1,Y,1,1,Y,N,Y,N
+2/13/10,12,Y,2.75,1.75,fair,Y,N,N,N,Y,N,,Y,pen gent,0,9,Y,1,4,Y,Y,Y,N
+4/17/10,11,Y,2.5,1.75,good,N,Y,N,N,N,N,,N,,,2,N,1,2,Y,Y,Y,N
+1/1/18,2,N,4,1.25,good,N,Y,N,Y,Y,Y,pen gent,N,,,2,Y,1,1,Y,Y,Y,N
+2/13/12,10,Y,4,1.5,good,N,Y,N,Y,N,N,,Y,pen gent pmx,1,2,Y,1,7,Y,Y,Y,N
+11/14/16,19,Y,1.5,1.5,fair,N,N,N,Y,Y,N,,N,,,2,N,1,6,Y,Y,Y,N
+5/10/10,1,N,2.25,1.25,good,N,N,N,Y,Y,N,,N,,,1,Y,1,1,Y,Y,Y,N
+9/4/14,3,Y,1.25,1.5,good,N,N,N,N,N,N,,Y,pen gent,1.25,3,N,1,3,Y,N,N,N
+4/10/17,4,Y,2.75,1.75,good,Y,N,N,N,N,N,,N,,,2,N,2,2,Y,N,N,N
+9/7/10,2,Y,1.75,1.25,good,N,N,N,Y,N,N,,N,,,2,N,1,2,Y,Y,Y,Y
+10/16/11,7,Y,2,1.25,fair,Y,N,N,N,N,N,,Y,pmx,0,2,Y,1,5,Y,N,N,N
+6/19/10,4,Y,1.5,1.25,good,Y,N,N,N,N,N,,N,,,2,N,1,2,Y,N,N,N
+6/24/10,17,Y,3,1.5,fair,N,N,N,N,N,N,,N,,,18,Y,1,11,Y,Y,N,Y
+6/24/10,6,Y,2,1.75,good,Y,N,N,N,N,N,,Y,pen gent,0,2,N,1,2,Y,N,N,N
+6/30/10,7,Y,,,,N,N,N,N,Y,N,,N,,,1,N,1,3,Y,Y,Y,N
+9/17/12,7,Y,2.75,1.25,good,Y,N,N,N,N,N,,N,,,3,Y,2,3,Y,N,N,N
+6/30/10,8,Y,2,1,good,Y,N,N,N,N,N,,N,,,1,Y,1,3,Y,N,Y,N
+7/2/10,5,Y,1,1,good,N,N,N,N,N,N,,N,,,1,N,1,3,N,N,N,N
+7/2/10,5,Y,1.75,0.75,fair,Y,N,N,N,N,N,,N,,,4,N,1,4,Y,Y,Y,N
+7/9/10,3,Y,2.25,1,good,Y,N,N,N,N,N,,N,,,3,Y,1,4,Y,N,N,N
+7/24/10,7,Y,2,0.75,good,N,N,N,N,N,N,,N,,,2,N,1,5,Y,N,N,N
+3/26/18,3,N,0.25,0.5,good,N,N,N,N,Y,N,,N,,,3,N,1,3,Y,Y,Y,Y
+8/2/10,4,Y,1.75,1,fair,Y,N,N,N,N,N,,N,,,1,N,1,2,N,N,Y,Y
+8/6/10,1,N,1.75,0.5,poor,N,N,N,N,Y,N,,N,,,1,N,1,1,N,N,N,N
+8/8/10,4,Y,3.5,1.5,fair,N,Y,N,N,N,N,,N,,,4,Y,1,3,Y,N,N,N
+8/9/10,9,Y,1.5,1,poor,N,N,N,N,Y,N,,N,,,7,Y,1,4,N,Y,Y,Y
+8/18/10,4,Y,2,0.75,good,N,N,N,N,N,N,,N,,,3,N,1,3,Y,Y,Y,Y
+8/19/10,19,N,2.75,1,good,N,N,N,N,Y,N,,N,,,19,Y,1,7,Y,Y,Y,Y
+8/21/10,4,Y,1.5,2,poor,Y,N,N,N,N,N,,N,,,2,N,1,3,Y,Y,Y,Y
+8/24/10,4,Y,1.75,1.75,good,Y,N,N,N,N,N,,N,,,1,N,1,3,Y,Y,Y,Y
+2/24/11,8,Y,3.25,1,good,N,Y,N,N,N,N,,Y,gent pmx,0,5,Y,1,5,Y,N,N,N
+9/3/10,10,Y,3.5,1.25,good,N,Y,N,N,N,Y,pen gent,N,,,6,N,1,10,Y,Y,Y,Y
+9/4/10,6,Y,2,1.5,fair,Y,N,N,N,Y,N,,N,,,6,Y,1,6,N,Y,N,N
+9/7/10,6,Y,2.75,1.5,fair,Y,N,N,Y,N,N,,Y,pen gent,0,3,N,1,4,Y,Y,N,N
+10/1/10,3,N,1.75,1.75,poor,N,N,N,N,N,N,,Y,pen gent,0,0,N,0,0,Y,Y,Y,N
+10/16/10,3,Y,1.75,1,good,N,N,N,N,N,N,,N,,,2,N,1,2,N,N,N,N
+10/16/10,3,Y,1.75,1,good,N,N,N,N,Y,N,,N,,,2,N,1,2,N,N,N,N
+10/24/11,4,Y,4,1,good,Y,Y,N,N,N,N,,Y,pen gent,0.25,5,N,1,5,Y,N,N,Y
+10/30/10,2,Y,2,0.74,good,Y,N,N,Y,Y,N,,Y,pen gent,0,2,N,1,2,Y,Y,N,N
+11/15/10,9,Y,2.25,1,good,N,N,N,N,N,N,,Y,pen gent,0,4,Y,2,7,Y,N,N,N
+7/25/11,16,Y,3,1.25,good,N,Y,N,N,N,N,,N,,,11,Y,1,11,Y,Y,Y,Y
+4/10/11,1,Y,2.5,1,good,Y,N,Y,Y,N,N,,Y,pen gent,0.75,10,Y,1,8,Y,Y,Y,N
+11/27/10,7,N,2.5,1,good,N,N,Y,N,Y,N,,Y,gent,0,6,Y,1,6,Y,Y,N,N
+8/23/11,4,Y,1.25,1,good,N,N,N,N,N,N,,Y,gent,0,1,N,1,2,Y,N,N,Y
+10/28/16,6,Y,3.5,1.25,good,Y,Y,N,N,Y,Y,pen gent,N,,,5,Y,1,6,Y,N,Y,Y
+7/25/11,3,Y,1.75,1,good,N,N,N,N,N,N,,N,,,1,N,1,2,Y,N,N,N
+4/18/11,4,Y,3,1.5,fair,Y,N,N,N,N,N,,N,,,2,Y,1,4,Y,N,N,Y
+2/8/11,8,Y,1.75,1,good,Y,N,N,N,N,N,,Y,ppen enro,1.75,3,Y,1,3,Y,Y,Y,Y
+2/10/11,1,N,1.25,1,fair,N,N,N,N,Y,N,,N,,,1,Y,1,1,Y,N,N,N
+4/2/11,1,N,2.25,,poor,Y,N,N,N,Y,N,,Y,pmx,1.5,1,Y,1,1,Y,N,N,N
+4/5/11,7,Y,2.5,1.25,fair,Y,N,N,N,N,N,,Y,gent,0.75,4,Y,1,6,Y,Y,Y,Y
+7/13/18,4,Y,2.75,1,good,Y,N,N,N,N,N,,N,,,1,N,1,3,Y,Y,Y,Y
+4/11/11,6,N,4.5,2,good,N,Y,N,N,Y,N,,Y,pen gent,0,4,Y,1,3,Y,N,Y,Y
+4/13/11,7,Y,4.25,,fair,N,Y,N,N,Y,N,,N,,,5,Y,1,6,Y,N,Y,N
+4/18/11,3,Y,1,1.25,good,Y,N,N,N,N,N,,N,,,2,Y,1,2,Y,N,Y,Y
+4/22/11,4,Y,1.75,1.5,good,N,N,N,N,Y,N,,Y,enro,0.5,2,Y,1,2,N,N,Y,N
+4/23/11,4,Y,1.5,1,good,Y,N,N,N,N,N,,N,,,2,Y,1,2,Y,N,N,N
+4/23/11,4,Y,1.75,1.25,fair,Y,N,N,N,N,N,,N,,,2,Y,1,2,Y,Y,Y,N
+4/28/11,12,Y,2.75,0.5,good,Y,N,N,Y,N,N,,N,,,1,Y,2,8,Y,Y,Y,Y
+7/7/17,2,Y,2.75,1,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,3,Y,Y,Y,Y
+5/23/11,10,Y,1.5,1.25,good,N,N,N,N,Y,N,,Y,pen gent,0,3,Y,1,7,Y,Y,Y,N
+6/1/11,6,N,1.5,1,good,N,N,N,Y,Y,N,,Y,pen,0.25,5,N,1,5,Y,N,N,N
+6/3/11,5,N,2,1.25,good,Y,N,N,Y,N,N,,Y,pen gent,0,4,N,1,4,Y,N,N,N
+6/12/11,5,Y,2,0.75,fair,Y,N,N,N,N,N,,N,,,1,N,1,1,Y,Y,Y,Y
+8/8/15,5,Y,3.5,1,good,Y,N,N,N,N,N,,N,,,3,Y,1,2,Y,Y,Y,Y
+7/14/11,5,Y,2.5,0.75,fair,Y,N,N,N,N,N,,Y,pen gent,0.25,4,N,1,1,Y,N,N,N
+7/17/11,4,Y,2.25,1.25,good,Y,N,N,N,N,N,,N,,,2,N,1,2,Y,N,N,N
+7/19/11,5,Y,2,1,poor,Y,N,N,N,N,N,,N,,,2,N,1,4,Y,Y,N,N
+7/28/11,5,Y,2.25,1.25,fair,N,N,N,N,N,N,,N,,,1,N,1,1,Y,N,N,Y
+7/31/11,4,Y,1.75,1.25,good,N,N,N,N,Y,N,,N,,,4,N,1,4,Y,Y,Y,N
+8/6/11,11,Y,2,1.25,fair,N,N,N,Y,Y,N,,N,,,11,Y,2,9,Y,N,N,N
+8/6/11,5,Y,1.25,1,good,N,N,N,N,Y,N,,N,,,3,Y,1,1,Y,N,N,N
+8/8/11,3,Y,2,1,fair,N,N,N,N,Y,N,,Y,gent,0,1,N,1,2,Y,N,N,N
+8/10/11,5,Y,2.75,1,fair,N,N,N,N,N,N,,N,,,1,Y,1,2,Y,N,N,N
+8/15/11,3,Y,1.5,1,fair,Y,N,N,N,N,N,,N,,,1,N,1,1,Y,N,N,N
+8/27/11,4,Y,2.25,1,good,Y,N,N,N,Y,N,,Y,pmx,0.5,2,Y,1,2,Y,Y,Y,N
+9/7/11,6,N,2,1.5,good,N,N,N,N,N,N,,N,,,5,N,2,6,Y,Y,Y,N
+1/13/12,8,Y,1.75,0.5,fair,Y,N,N,N,N,N,,N,,,3,Y,1,4,Y,N,N,N
+9/17/11,6,Y,2.5,,good,N,N,N,N,N,N,,Y,gent pmx,1,3,Y,1,2,Y,Y,Y,N
+9/25/11,7,Y,1,0.75,fair,N,N,N,N,N,N,,N,,,4,N,1,4,Y,Y,Y,Y
+12/25/11,7,Y,3.75,3.25,poor,N,Y,N,N,Y,N,,Y,pmx,0.75,4,Y,2,4,Y,N,N,N
+2/21/12,7,Y,4.25,2,fair,N,Y,N,N,Y,N,,N,,,6,Y,1,7,Y,Y,N,N
+9/29/11,5,Y,1.25,1,good,N,N,N,N,Y,N,,N,,,1,N,1,2,Y,N,N,N
+9/30/11,2,Y,1.5,1.5,fair,N,N,N,N,Y,N,,N,,,2,N,1,2,Y,N,N,N
+10/2/11,9,N,1.75,1,good,N,N,N,Y,Y,N,,Y,pmx,0.5,8,Y,3,9,Y,Y,N,N
+10/3/11,6,Y,2,0.5,poor,Y,N,N,N,N,N,,N,,,1,N,1,1,Y,N,N,N
+10/6/11,4,Y,1.75,1.25,good,Y,N,Y,N,N,N,,N,,,2,N,1,1,Y,N,N,N
+10/11/11,6,Y,2.5,1.25,good,Y,N,N,Y,N,N,,N,,,6,Y,1,1,Y,Y,Y,N
+10/29/11,4,Y,2.25,1.5,good,N,N,N,N,N,N,,Y,pen gent,0,4,Y,1,5,Y,Y,N,N
+10/29/11,3,Y,3,1,good,N,N,N,N,N,N,,N,,,2,N,1,6,N,N,N,N
+11/3/11,4,Y,2.5,1.25,fair,N,N,N,N,N,N,,N,,,1,N,1,4,Y,N,N,N
+9/20/18,7,Y,2.5,1,good,Y,N,N,N,N,N,,N,,,6,N,1,6,Y,Y,Y,Y
+11/17/11,20,Y,4.25,1.5,good,Y,Y,N,N,Y,N,,Y,gent pmx,0,12,Y,3,15,Y,Y,Y,N
+10/5/16,5,Y,2.5,1,fair,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,4,Y,N,N,N
+1/16/17,10,Y,3.5,,good,Y,Y,N,Y,Y,Y,pen gent,N,,,5,N,1,8,Y,Y,Y,Y
+12/29/11,9,Y,1.5,0.75,fair,N,N,N,N,N,N,,Y,pen,0,6,N,2,7,N,Y,Y,N
+12/17/11,2,N,2.5,1.25,poor,Y,N,N,Y,N,N,,Y,cefa,0,2,Y,1,2,Y,Y,Y,N
+12/18/11,11,N,2.75,1.5,fair,N,Y,N,Y,Y,N,,N,,,11,Y,2,11,Y,Y,Y,N
+12/18/11,3,N,2.25,,good,N,Y,N,Y,Y,N,,N,,,2,Y,1,2,Y,N,N,N
+12/27/11,1,Y,4.25,1.5,poor,N,N,N,Y,N,N,,N,,,1,Y,1,1,Y,Y,Y,N
+1/6/12,3,Y,2,1,fair,Y,N,N,N,N,N,,N,,,1,N,2,3,Y,N,N,N
+1/20/12,16,Y,2,1,good,N,N,N,Y,Y,N,,N,,,9,N,1,9,Y,Y,Y,N
+5/26/16,0,N,2.5,3,poor,N,Y,N,N,Y,N,,Y,pen,1,1,N,1,1,Y,Y,N,N
+9/4/13,11,Y,2.25,1.5,fair,Y,N,N,N,Y,N,,N,,,2,N,1,6,Y,Y,N,N
+2/3/12,5,Y,5.75,1.75,fair,N,Y,N,N,Y,N,,Y,gent pmx,0.5,1,Y,2,15,Y,Y,Y,N
+2/13/12,12,Y,2.75,1,good,Y,N,N,N,Y,N,,Y,cefa,2,7,Y,1,4,Y,N,N,Y
+7/15/13,4,Y,3,2.25,poor,N,N,N,N,Y,N,,N,,,1,Y,2,3,Y,N,N,N
+3/4/12,3,N,6,0.75,good,N,Y,N,N,Y,N,,N,,,3,Y,2,2,Y,Y,N,Y
+3/10/12,7,Y,2,0.75,good,N,N,N,N,Y,N,,N,,,2,N,1,2,Y,Y,Y,N
+3/13/12,5,Y,2.25,1.25,good,Y,N,N,N,N,N,,N,,,3,N,1,3,Y,N,N,N
+3/23/12,5,Y,2,0.25,good,N,N,N,N,N,N,,N,,,1,N,2,3,N,N,N,Y
+3/30/12,5,Y,2.5,1,fair,N,N,N,N,N,N,,N,,,4,Y,2,3,Y,N,N,N
+4/1/12,4,Y,2,0.75,fair,Y,N,N,N,N,N,,N,,,2,N,1,2,Y,N,N,N
+4/15/12,5,Y,1.75,0.75,good,N,N,N,N,N,N,,N,,,1,N,1,2,Y,Y,N,N
+2/13/13,5,Y,3,0.5,good,N,Y,N,N,N,N,,Y,pen gent,0,1,N,1,1,Y,N,N,Y
+4/19/12,3,Y,1.25,0.75,fair,N,N,N,N,N,N,,N,,,1,N,2,5,Y,N,N,N
+2/29/16,11,N,2.5,1.25,good,Y,Y,N,N,Y,Y,pen gent,N,,,11,Y,1,11,Y,Y,Y,Y
+5/3/12,4,Y,1.25,1.25,good,Y,N,N,N,N,N,,N,,,2,Y,1,2,Y,Y,N,N
+4/24/12,4,Y,1.5,,fair,N,N,N,N,N,N,,Y,pen gent,0,2,N,2,3,Y,Y,Y,Y
+4/26/12,8,Y,3,1.25,good,N,Y,N,N,Y,N,,N,,,5,N,2,8,Y,Y,Y,Y
+1/13/16,2,N,2.25,1.75,poor,Y,N,N,N,Y,N,,N,,,2,Y,1,1,Y,Y,Y,Y
+5/3/12,3,Y,1,0.75,good,N,N,N,N,N,N,,N,,,1,N,1,2,Y,N,N,N
+12/25/12,6,Y,2.25,1,good,N,N,N,Y,Y,N,,N,,,3,Y,2,8,Y,Y,Y,Y
+5/17/12,3,Y,1.5,0.75,fair,N,N,N,N,N,Y,gent,Y,pen,0.25,1,N,2,1,Y,N,N,N
+5/19/12,6,Y,3.25,0.75,good,Y,Y,N,N,N,N,,N,,,4,N,2,5,Y,Y,Y,Y
+5/21/12,9,Y,2,1.25,good,Y,Y,Y,Y,Y,N,,N,,,4,Y,2,5,Y,Y,Y,Y
+5/21/12,3,Y,1.5,1,good,N,N,N,N,N,N,,N,,,1,N,1,2,Y,N,N,N
+6/18/15,3,Y,2.25,1.25,good,Y,N,N,N,N,N,,Y,gent,0.25,1,N,1,2,Y,N,Y,Y
+5/22/12,3,Y,1,1,good,N,N,N,N,N,N,,N,,,1,N,1,1,Y,N,N,N
+5/27/12,7,N,2.75,,,N,N,N,N,Y,N,,N,,,4,N,1,4,Y,Y,Y,N
+5/30/12,14,Y,2,1.75,poor,N,Y,N,Y,N,N,,Y,pen,0,5,N,1,8,Y,N,N,N
+8/16/15,1,N,2.75,2.25,poor,Y,N,N,Y,Y,N,,N,,,1,Y,1,1,Y,N,N,N
+1/7/13,8,Y,2,1,good,Y,N,N,N,N,N,,N,,,3,N,1,3,Y,Y,Y,N
+6/10/12,0,N,2.5,,poor,Y,N,N,N,Y,N,,N,,,0,N,,0,N,N,N,N
+6/13/12,6,Y,2.5,2,poor,N,N,N,N,N,N,,Y,gent,0,5,N,1,5,Y,N,N,N
+6/14/12,5,Y,4,2,poor,N,Y,N,N,Y,N,,N,,,4,N,1,4,Y,N,N,N
+12/1/12,10,Y,1.5,1.5,good,N,N,N,N,N,N,,Y,pen,0,2,Y,1,2,Y,N,N,N
+6/14/12,6,Y,2,0.75,good,Y,N,N,N,N,N,,N,,,4,Y,2,4,Y,Y,Y,Y
+7/8/12,1,N,1.75,1,good,N,N,N,N,Y,N,,N,,,1,N,1,1,Y,N,N,N
+7/4/12,5,Y,1.75,1.5,fair,N,N,N,N,N,N,,N,,,5,N,1,5,Y,Y,N,N
+4/5/14,10,Y,2.25,1,fair,N,Y,Y,N,Y,N,,N,,,20,Y,2,9,Y,Y,N,Y
+3/31/17,6,Y,2.25,1.5,good,Y,N,Y,N,N,N,,Y,pmx,0.75,4,Y,1,4,Y,Y,Y,Y
+7/14/12,8,Y,1,2,good,N,N,Y,N,N,Y,pen gent,N,,,2,N,2,3,N,N,N,N
+7/16/12,9,Y,0.5,,poor,N,N,N,N,Y,N,,Y,pen gent,0.5,0,N,2,7,Y,N,N,N
+7/20/12,6,N,2,0.5,good,N,N,N,N,Y,N,,N,pen,,5,Y,2,5,Y,Y,N,N
+7/22/12,9,Y,4,1,fair,Y,Y,N,N,Y,N,,Y,,1.75,8,Y,2,9,Y,Y,Y,N
+7/22/12,5,Y,1.75,1,good,N,N,N,N,N,N,,N,,,3,N,2,6,Y,N,N,Y
+7/28/12,5,Y,1.5,1,good,N,N,N,N,N,Y,pen gent,N,,,4,N,1,3,Y,N,N,N
+7/29/12,7,Y,3,1.25,good,N,Y,N,N,N,N,,N,,,5,N,2,4,Y,N,N,N
+8/2/12,3,Y,1.5,0.5,poor,N,N,N,N,N,N,,N,,,1,N,2,4,Y,Y,Y,N
+8/3/12,3,Y,2.25,1.25,fair,N,N,N,N,N,N,,N,,,1,N,1,3,Y,N,N,Y
+8/6/12,3,Y,3,1,fair,Y,Y,N,N,N,N,,N,,,1,N,2,1,Y,N,N,N
+8/12/12,8,Y,2,1,good,N,N,N,N,Y,N,,N,,,4,Y,1,3,Y,N,N,N
+8/21/12,4,Y,1.25,1.75,good,N,N,N,N,N,N,,N,,,1,N,2,3,Y,N,N,Y
+8/26/12,8,Y,2,,good,Y,N,N,Y,Y,N,,Y,pen gent,0,1,N,2,4,Y,N,N,N
+9/1/12,7,Y,2.5,2.25,fair,Y,N,N,N,N,N,,N,,,5,N,1,5,Y,N,N,N
+9/6/12,7,Y,3.5,1.75,good,Y,N,N,N,Y,N,,Y,pmx,2.5,2,N,2,6,Y,Y,N,Y
+9/13/12,14,Y,3,1.5,good,N,Y,N,N,N,N,,Y,gent,0,,N,2,,,N,N,N
+9/16/12,4,Y,1.25,,good,N,N,N,N,N,N,,N,,,1,N,1,4,Y,N,N,N
+3/9/15,15,Y,5.75,2.25,poor,Y,Y,N,Y,N,N,,N,,,5,Y,1,5,Y,N,N,N
+10/1/12,5,Y,2.75,1,good,Y,N,N,N,N,N,,N,,,3,Y,1,7,Y,Y,N,N
+10/15/12,4,Y,3.25,1.25,good,Y,N,N,N,N,N,,N,,,3,N,1,3,Y,N,N,N
+3/27/15,3,Y,2,2,fair,N,N,N,N,N,N,,N,,,3,Y,1,1,Y,N,N,N
+8/21/13,6,Y,1.5,1.25,good,N,N,N,N,Y,N,,N,,,4,Y,2,4,Y,Y,N,N
+10/29/12,8,Y,3.75,1,good,N,Y,N,N,N,N,,Y,pen gent,3,7,Y,2,8,Y,Y,Y,N
+11/1/12,12,Y,1.75,1,good,N,N,N,N,Y,N,,N,,,12,Y,1,2,Y,N,Y,N
+11/4/12,11,Y,1.75,0.75,good,N,N,N,Y,Y,N,,N,,,3,Y,2,6,Y,N,Y,N
+11/13/14,8,Y,2,0.75,good,Y,N,N,Y,Y,N,,N,,,1,Y,2,5,Y,Y,Y,N
+11/11/12,6,Y,3.25,1,good,N,Y,N,N,N,N,,Y,gent,0.25,1,N,2,4,Y,Y,N,Y
+11/16/12,11,Y,3.25,1.5,good,N,Y,N,N,N,N,,N,,,7,Y,2,10,Y,Y,Y,Y
+5/30/17,11,Y,3,1.25,poor,N,Y,N,N,N,Y,pen gent,N,,,13,Y,1,11,Y,N,Y,Y
+12/2/12,6,Y,2,2,fair,Y,N,N,N,Y,N,,N,,,3,N,1,3,Y,Y,Y,Y
+12/6/12,6,Y,2,1.25,fair,Y,N,N,N,N,N,,N,,,3,N,1,3,Y,N,N,N
+12/13/12,7,Y,2.5,1,good,N,N,N,N,Y,N,,Y,cefa,0,2,Y,1,2,Y,Y,Y,Y
+12/27/12,4,Y,2.25,,,Y,N,N,N,Y,N,,N,,,4,Y,1,4,N,Y,Y,Y
+1/5/13,11,Y,2,1,good,N,N,N,N,N,N,,N,,,4,N,2,10,Y,Y,N,Y
+2/24/13,8,N,2.25,2,poor,Y,N,N,Y,Y,N,,N,,,3,N,2,7,Y,N,N,N
+1/30/13,2,N,1.25,1,fair,N,N,N,Y,Y,N,,Y,pen enro,0.25,1,Y,2,1,Y,Y,Y,N
+8/27/13,8,Y,4,3.5,poor,Y,Y,N,Y,Y,N,,Y,pen,3,3,N,2,8,Y,N,Y,N
+2/18/13,7,Y,2.25,1.25,good,N,Y,N,N,N,Y,pen gent,Y,pen gent,0.25,5,N,2,7,Y,N,N,N
+4/12/13,7,Y,1.5,1.5,good,N,N,N,N,N,N,,Y,pen gent,0.5,3,N,2,4,Y,Y,N,N
+4/21/13,5,Y,2,0.75,fair,N,N,N,N,N,N,,Y,pen gent,0.25,4,N,1,4,Y,N,N,N
+4/28/13,5,Y,2,1.25,fair,Y,N,N,N,N,N,,N,,,2,N,1,3,Y,N,N,N
+5/1/13,9,Y,1.75,1,good,Y,N,N,N,Y,N,,N,,,6,N,2,8,Y,N,N,Y
+5/2/13,4,Y,1.5,1,good,N,N,N,N,N,N,,Y,pen gent,0,1,N,1,1,N,N,N,N
+5/4/13,7,Y,3.75,2,fair,N,Y,N,Y,N,N,,N,,,7,N,2,7,Y,Y,Y,N
+5/4/13,5,Y,1.75,,poor,Y,N,N,N,Y,N,,Y,pen gent,0.5,4,Y,2,5,Y,N,N,N
+5/28/13,6,Y,2,1.25,good,Y,N,N,Y,Y,N,,N,,,3,N,1,5,Y,Y,Y,Y
+6/11/13,3,Y,1.75,1,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,2,Y,N,N,N
+9/29/17,7,Y,1.75,1.25,good,Y,N,N,Y,Y,Y,pen gent,Y,pen gent,0,4,Y,2,7,Y,N,N,N
+6/12/13,3,Y,2,,good,Y,N,N,N,N,N,,N,,,1,N,2,1,Y,Y,Y,N
+6/15/13,7,Y,2,,good,Y,N,N,N,Y,N,,N,,,1,N,2,1,Y,N,N,N
+6/21/13,2,N,1.5,1.5,fair,N,N,N,N,Y,N,,N,,,1,Y,1,1,Y,N,N,N
+6/29/13,6,Y,4.25,1.5,good,Y,Y,N,N,Y,N,,Y,pmx,0,2,Y,2,5,Y,N,N,N
+7/1/13,5,Y,2.5,1.25,good,Y,N,N,N,Y,N,,Y,pen gent pmx,1,1,N,2,4,Y,Y,Y,N
+7/1/13,4,Y,1.75,1.5,fair,Y,N,N,N,N,N,,N,,,3,Y,2,3,N,N,N,N
+7/24/13,4,Y,1.75,1.5,,N,N,N,N,N,N,,N,,,2,N,1,2,Y,N,N,Y
+7/31/13,9,Y,1.5,1.5,poor,Y,N,Y,N,N,N,,Y,pen gent,2,6,Y,1,5,Y,Y,N,Y
+8/5/13,4,Y,2.5,1.75,good,Y,N,N,Y,N,Y,pen gent,N,,,1,N,2,3,Y,N,N,Y
+8/13/13,18,Y,5.25,1.25,good,Y,Y,N,N,N,N,,Y,pen gent,1.25,1,N,2,2,Y,Y,N,N
+8/13/13,3,Y,1.25,1,good,N,N,N,N,N,N,,Y,pen,0,3,N,2,3,N,N,N,N
+11/21/16,7,Y,2.25,2,good,Y,N,N,N,Y,N,,Y,pen gent pmx,1.5,3,Y,1,2,N,N,N,N
+8/18/13,3,Y,2,2.25,good,Y,N,N,N,N,N,,N,,,3,N,1,1,Y,N,N,N
+9/3/13,5,Y,2.75,0.75,fair,N,N,N,N,Y,N,,N,,,2,N,1,2,Y,N,N,N
+10/12/14,4,Y,2.5,,,Y,N,Y,N,N,N,,N,,,2,N,1,3,Y,Y,Y,N
+9/1/13,13,Y,4.25,2,fair,Y,N,N,N,Y,N,,N,,,13,Y,2,12,Y,Y,Y,Y
+9/8/13,8,Y,1.5,1,good,N,N,N,N,N,N,,N,,,3,N,1,8,Y,Y,Y,Y
+7/6/13,4,Y,2.75,1.5,good,Y,N,N,N,Y,N,,Y,gent cefa,0,2,Y,1,1,Y,N,N,N
+7/6/13,7,Y,3.5,1.5,good,Y,Y,N,N,N,N,,Y,pen gent,0,2,Y,1,1,Y,N,N,N
+9/28/13,3,Y,2,1,good,N,N,N,N,Y,N,,Y,pmx,1,2,Y,1,1,Y,N,N,N
+9/30/13,4,Y,2.75,1.5,fair,Y,N,N,N,N,N,,N,,,2,N,2,3,Y,Y,Y,Y
+10/1/13,5,Y,1.5,1,good,N,N,N,N,Y,N,,N,,,3,N,2,2,Y,N,N,N
+5/18/14,13,Y,2,1.5,fair,N,N,Y,N,Y,N,,N,,,9,Y,2,11,Y,Y,Y,N
+10/25/13,10,Y,2,1,good,Y,N,Y,Y,N,N,,N,,,3,Y,1,8,Y,Y,Y,Y
+5/22/14,3,Y,2,1.25,good,N,N,N,N,N,N,,N,,,4,N,1,3,Y,Y,N,Y
+10/28/13,6,Y,2.25,1.75,fair,N,N,N,N,N,N,,N,,,1,N,1,2,Y,N,Y,Y
+10/29/13,6,Y,1.5,2,good,N,N,N,N,N,N,,N,,,4,N,2,4,Y,Y,Y,N
+11/4/13,7,Y,2,1.25,good,Y,N,Y,N,Y,N,,Y,pen,1,4,Y,2,4,Y,Y,Y,Y
+11/27/13,4,Y,2.25,1.25,good,Y,N,N,N,Y,N,,N,,,2,N,2,2,N,N,N,N
+11/14/13,4,Y,1.75,1.75,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,4,Y,N,N,N
+7/24/14,34,Y,3.75,0.75,good,Y,Y,Y,Y,Y,N,,N,,,29,Y,1,29,Y,Y,Y,Y
+11/30/15,4,Y,1.75,1.5,good,N,N,N,N,N,N,,N,,,1,N,1,2,Y,N,Y,Y
+12/31/13,3,Y,1.75,0.75,fair,N,N,N,N,N,Y,pen gent,N,,,1,N,1,2,Y,Y,N,Y
+1/5/14,3,N,2,0.75,good,Y,N,N,Y,Y,N,,Y,p,0,2,N,1,2,Y,N,N,Y
+1/6/14,9,Y,2.75,2,good,Y,N,N,N,Y,Y,pen cefa,N,,,2,Y,2,4,Y,Y,Y,N
+1/20/14,6,Y,1.5,1,good,N,N,N,N,Y,N,,N,,,2,N,1,2,Y,Y,N,Y
+1/23/14,1,N,2.25,1.25,fair,Y,N,N,Y,Y,N,,Y,pen gent pmx,1,1,N,1,1,Y,Y,N,N
+2/27/14,9,Y,3,2,fair,N,Y,Y,Y,Y,N,,N,,,6,N,1,1,Y,N,Y,N
+3/25/14,2,Y,2,1,good,N,N,N,N,N,N,,Y,pen gent,1.25,1,Y,1,1,Y,N,N,N
+3/1/14,8,Y,1.75,0.75,good,N,N,N,N,N,N,,Y,pen,0.75,4,Y,2,1,N,Y,N,N
+3/8/14,7,Y,2,0.75,good,Y,N,N,N,N,N,,N,,,2,N,1,5,Y,Y,Y,Y
+3/13/14,1,N,2.75,1,good,N,N,N,Y,Y,N,,N,,,1,Y,1,1,Y,N,N,N
+4/11/14,12,N,3,1.5,good,Y,N,N,Y,Y,N,,N,,,11,Y,1,11,Y,Y,Y,Y
+8/26/15,15,Y,1.5,1.25,fair,N,N,N,Y,Y,N,,N,,,1,N,1,7,Y,Y,Y,N
+4/21/14,7,Y,3,1.5,fair,N,Y,N,Y,Y,N,,Y,pmx,1.25,4,Y,1,3,Y,N,N,N
+4/29/14,6,Y,2,1.75,good,Y,N,N,Y,N,N,,N,,,2,Y,1,4,Y,N,N,Y
+5/15/14,1,N,3,1.25,,Y,N,N,N,Y,N,,N,,,1,N,1,1,Y,Y,N,N
+5/21/14,4,Y,2.25,1.25,fair,N,N,N,Y,N,N,,Y,pen gent,1.25,1,N,1,2,Y,N,N,N
+5/21/14,8,Y,1.75,1.25,good,Y,N,Y,Y,Y,N,,N,,,8,Y,1,5,Y,Y,Y,Y
+6/18/15,3,Y,1.5,1.25,fair,N,N,N,N,Y,Y,pen gent,N,,,1,N,1,2,N,N,N,N
+5/28/14,9,Y,2,1,fair,Y,N,N,N,Y,N,,N,,,1,N,2,9,Y,Y,Y,Y
+6/6/14,3,Y,1.25,1,poor,N,N,N,N,N,N,,N,,,1,N,2,3,N,Y,N,Y
+6/6/14,11,Y,2.75,1.5,good,N,N,Y,Y,N,Y,pen gent,N,,,0,N,2,6,Y,Y,N,N
+6/8/14,3,Y,1.25,1,good,N,N,N,N,Y,Y,pen gent,N,,,1,N,1,1,Y,N,N,N
+6/15/14,9,Y,2.5,1.75,fair,N,N,N,N,Y,N,,Y,pen gent,0.5,4,Y,1,6,Y,N,N,N
+6/24/14,7,Y,1.5,,fair,Y,N,N,N,N,N,,N,,,1,N,2,3,Y,N,N,N
+7/17/14,6,Y,3,1.25,fair,N,N,N,N,N,Y,cefa gent,N,,,4,Y,1,3,N,N,N,N
+7/22/14,4,Y,2,1,good,N,N,N,N,N,N,,Y,pen gent pmx,0.25,3,N,1,3,N,N,N,N
+7/23/14,2,Y,1.25,1,fair,N,N,N,N,Y,N,,N,,,1,N,1,2,N,N,N,N
+10/13/14,3,Y,2,0.75,good,N,N,N,N,N,N,,Y,pen gent,0.5,2,N,1,2,N,N,N,N
+7/23/14,3,Y,2,1,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,2,N,N,Y,N
+7/30/14,17,Y,4,0.75,good,Y,Y,N,N,N,N,,N,,,4,N,1,4,Y,N,Y,N
+9/10/14,4,Y,1.5,1.75,poor,N,N,N,N,Y,N,,N,,,2,N,1,3,N,N,Y,N
+8/1/14,6,Y,2.25,2,poor,N,N,N,N,Y,N,,Y,pen gent,0,4,Y,1,4,Y,N,N,N
+8/5/14,6,Y,2.25,1.25,good,Y,N,N,N,Y,N,,Y,pen gent,0,2,Y,1,2,N,N,Y,Y
+8/8/14,9,Y,3,2,good,N,Y,N,N,N,N,,N,,,5,N,2,6,Y,N,Y,Y
+8/8/14,10,Y,2.25,2,,Y,N,N,Y,N,N,,Y,pen gent,0,5,N,2,6,Y,N,N,N
+8/19/14,4,Y,2,1.75,good,N,N,N,N,N,N,,N,,,1,N,2,3,Y,N,N,N
+8/29/14,4,N,3,1.25,good,Y,N,N,Y,Y,N,,N,,,4,Y,1,2,Y,N,Y,N
+8/30/14,8,N,2,0.75,fair,Y,N,N,Y,Y,N,,Y,pen gent pmx,0.75,6,N,2,7,Y,Y,Y,N
+9/4/14,6,Y,3.25,1.5,good,N,Y,N,N,N,N,,N,,,3,N,1,4,Y,N,Y,N
+9/5/14,10,Y,3,1.5,good,N,Y,N,N,Y,N,,Y,pen gent,0.75,10,Y,2,9,Y,Y,Y,N
+9/20/14,13,Y,4,1.25,good,Y,Y,Y,Y,Y,N,,N,,,4,N,1,8,Y,Y,Y,N
+10/5/14,1,N,2,1,good,N,N,N,N,Y,Y,pen gent,N,,,1,N,1,1,Y,N,N,N
+10/7/14,6,Y,2.25,1.5,good,Y,N,N,N,N,N,,N,,,2,N,1,2,N,N,N,N
+10/20/14,3,Y,2.5,0.75,fair,Y,N,N,N,N,N,,N,,,1,N,1,1,N,N,N,N
+10/21/14,4,Y,2.75,1.75,fair,N,N,N,N,N,N,,N,,,1,N,1,2,Y,N,Y,Y
+12/1/15,1,N,3,,poor,Y,N,N,N,Y,N,,Y,pen gent,0,0,N,,,,N,N,N
+12/25/14,6,Y,2.5,1.5,good,Y,N,N,N,N,N,,Y,pen gent,1.75,3,N,1,2,Y,N,N,N
+12/31/14,7,Y,3,1.5,good,N,Y,N,N,N,N,,Y,pmx,1,5,N,1,5,Y,N,N,N
+1/26/15,4,Y,2.75,1.5,good,Y,N,N,Y,N,N,,N,,,3,N,1,3,Y,Y,Y,N
+4/15/16,10,Y,4.5,1.5,good,Y,Y,N,N,N,N,,Y,pmx,1.25,6,Y,2,7,Y,N,N,N
+2/13/15,10,Y,4,2,fair,Y,Y,N,N,Y,Y,pen gent,N,,,5,Y,1,6,Y,Y,N,N
+3/10/15,3,Y,2,1.25,good,N,N,N,N,N,N,,N,,,1,N,1,1,N,Y,Y,N
+3/11/15,6,Y,2.25,0.75,good,Y,N,N,Y,Y,N,,N,,,3,N,1,3,Y,N,N,N
+4/2/15,4,Y,1.25,1.5,fair,N,N,N,N,Y,N,,N,,,1,N,1,3,Y,N,N,N
+6/21/17,5,Y,2.75,1.5,fair,Y,N,N,N,Y,Y,pen gent,N,,,4,N,2,6,Y,Y,Y,N
+4/14/17,2,N,4,2,poor,Y,N,N,N,Y,N,,N,,,1,Y,1,2,N,N,Y,N
+5/4/15,7,Y,2,1,good,N,N,N,Y,N,N,,N,,,1,Y,2,5,Y,Y,Y,N
+5/10/15,6,Y,3,1,good,Y,N,Y,N,N,Y,pen gent,N,,,1,N,1,6,Y,Y,N,N
+5/11/15,0,N,2.25,1.75,poor,Y,N,N,Y,Y,N,,Y,pen gent,0.5,1,N,1,1,Y,N,N,N
+7/13/17,2,Y,1.75,1.75,good,N,N,N,N,N,Y,pen gent,N,,,1,N,2,1,Y,N,Y,Y
+6/10/15,3,Y,2.25,1.25,good,Y,N,N,N,N,N,,N,,,2,N,1,1,N,Y,Y,N
+6/12/15,7,Y,1.75,0.75,good,N,N,N,N,Y,Y,pen gent,N,,,5,N,1,5,Y,N,Y,Y
+6/21/15,3,Y,2,1,fair,Y,N,N,N,N,N,,Y,pmx,0.75,2,N,1,2,Y,Y,Y,Y
+7/13/15,4,N,1.5,1,fair,N,N,N,Y,Y,N,,N,,,2,Y,1,1,Y,N,N,N
+7/14/15,4,Y,2,1.25,good,Y,N,N,N,N,N,,Y,pen gent,0,1,N,2,1,Y,N,N,N
+7/16/15,5,Y,3.5,1.5,fair,Y,Y,N,N,N,Y,pen gent,N,,,2,N,1,1,Y,Y,Y,Y
+8/7/15,12,Y,3,0.5,good,N,Y,N,N,Y,N,,N,,,13,Y,2,13,N,N,Y,Y
+3/23/16,5,Y,1.5,1.25,good,Y,N,N,N,Y,Y,pen gent,N,,,2,N,1,3,Y,N,Y,Y
+8/19/15,7,Y,3.25,2,fair,Y,Y,N,N,N,Y,pen gent,Y,pmx,1,2,Y,1,1,N,N,N,N
+6/12/16,6,Y,2.75,2,good,Y,N,N,N,N,N,,N,,,1,N,2,3,N,N,N,N
+9/4/15,13,Y,3,2,poor,Y,N,N,Y,N,N,,N,,,4,N,2,5,Y,Y,N,N
+9/19/15,11,Y,1.5,1,fair,N,N,N,Y,N,N,,N,,,3,N,2,7,Y,N,N,N
+9/27/15,1,N,4.5,3.25,poor,Y,Y,N,N,Y,Y,pen gent,Y,pmx,0,1,N,1,1,N,N,N,N
+10/5/15,6,N,3,1.75,fair,Y,N,N,Y,N,N,,N,,,4,Y,1,3,Y,Y,Y,N
+11/8/15,5,Y,3.5,1.25,fair,Y,N,N,N,Y,N,,N,,,3,Y,1,2,Y,N,N,N
+3/21/17,15,Y,3.5,2.25,fair,Y,Y,N,N,Y,Y,pen gent,Y,pen gent pmx,0,13,Y,1,2,Y,Y,Y,Y
+10/22/15,2,Y,3.5,1,fair,Y,N,N,N,N,N,,N,,,3,Y,1,2,N,N,N,N
+11/14/15,4,Y,2.25,1,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,2,N,N,N,N
+11/15/15,11,Y,4.75,1,good,Y,Y,N,Y,Y,N,,Y,pmx,0.5,5,Y,1,4,Y,N,N,N
+12/23/15,4,N,3,2,poor,Y,N,N,Y,Y,Y,pen gent,Y,pmx,1,3,Y,1,3,Y,N,N,N
+1/14/16,3,Y,1.25,1,fair,Y,N,N,N,N,Y,pen gent,Y,pen gent,0.5,1,N,1,1,N,N,N,N
+2/9/16,3,Y,2,1.75,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,1,N,Y,N,N
+3/21/16,4,Y,2,0.5,fair,N,N,N,N,N,Y,pen gent,N,,,3,N,1,4,N,N,N,N
+4/8/16,3,Y,2.25,1.75,fair,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,3,N,N,N,N
+5/20/16,7,Y,5,2,good,N,Y,N,Y,N,Y,pen gent,N,,,4,N,1,4,Y,N,N,N
+4/23/16,2,N,3,1,good,Y,N,N,Y,Y,N,,Y,pmx,1.25,1,Y,1,1,Y,N,N,N
+4/27/16,5,Y,3,1.5,good,Y,N,N,N,N,Y,pen gent enro,N,,,1,Y,2,4,N,Y,Y,Y
+5/9/16,5,Y,2,2,fair,N,N,N,N,Y,Y,gent,Y,pen gent,0,1,N,1,2,Y,N,N,N
+5/30/16,2,Y,2,1.25,good,Y,N,N,N,N,N,,Y,pen gent,0.75,1,N,1,1,N,Y,Y,Y
+6/1/16,2,N,2.5,1.25,poor,N,N,N,Y,Y,N,,Y,pen gent,0,1,Y,2,1,Y,N,N,N
+6/18/16,5,Y,2,1.5,fair,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,3,Y,N,N,N
+6/26/16,3,Y,2,1,good,Y,N,N,N,N,N,,Y,pen gent,0.25,1,N,1,3,Y,N,Y,Y
+6/28/16,4,Y,2,1.25,good,Y,N,N,N,Y,Y,pen gent,N,,,1,N,1,1,Y,N,N,N
+7/8/16,4,Y,2.25,0.75,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,1,Y,N,N,N
+7/11/16,9,Y,2.5,2,fair,Y,N,N,Y,Y,N,,Y,pen gent pmx,0.5,13,Y,3,13,Y,Y,Y,N
+7/14/16,8,Y,2,1,poor,Y,N,N,N,Y,Y,pen gent,Y,pen gent,0,15,Y,1,3,Y,Y,Y,Y
+7/20/16,8,Y,2.5,1.25,good,Y,N,Y,Y,N,Y,pen gent,N,,,2,N,2,5,Y,N,N,N
+8/7/16,9,Y,2,1.5,fair,N,N,Y,N,Y,N,,Y,pen gent,0,4,Y,2,4,Y,N,N,N
+8/8/16,7,Y,4,2,good,Y,N,N,N,Y,Y,pen gent,N,,,5,Y,1,5,Y,N,N,N
+8/19/16,4,Y,2,0.75,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,2,N,N,N,N
+9/8/16,4,Y,1.75,,fair,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,2,Y,N,N,N
+9/15/16,15,N,3,1.75,fair,Y,Y,N,Y,Y,Y,pen gent,N,,,5,Y,2,11,Y,N,N,N
+10/10/17,6,Y,6,1.75,poor,N,Y,Y,N,Y,Y,pen gent,N,,,2,Y,2,6,Y,Y,N,N
+9/25/16,5,Y,2.25,2,fair,Y,N,N,N,Y,Y,pen gent,N,,,5,Y,1,5,N,N,Y,Y
+9/28/16,5,Y,6.5,2,fair,N,Y,N,Y,Y,Y,pen gent,Y,gent,5,4,Y,3,5,Y,Y,N,N
+9/29/16,5,Y,2,1.5,fair,Y,N,Y,N,N,Y,pen gent,N,,,5,Y,2,4,N,N,Y,Y
+10/6/16,2,Y,1.5,1,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,1,N,N,N,N
+10/8/16,9,N,3,2,fair,N,Y,N,N,Y,Y,pen gent,Y,pen,0,9,Y,2,9,Y,Y,N,N
+10/14/16,4,Y,2,2,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,3,N,N,N,N
+10/14/16,3,Y,2.25,1.25,good,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,3,Y,N,N,N
+10/18/16,4,Y,2.5,1,good,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,2,N,N,N,N
+1/15/18,7,Y,2.5,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,4,N,2,8,Y,N,Y,Y
+11/9/16,13,Y,2,0.75,good,Y,N,N,N,Y,Y,pen enro,N,,,2,N,3,12,Y,Y,N,N
+11/19/16,4,Y,2.25,1.5,fair,Y,N,N,N,Y,Y,pen gent,N,,,2,N,1,2,Y,N,N,N
+12/11/16,8,Y,2.75,0.75,fair,Y,N,N,N,N,Y,pen gent,N,,,5,Y,1,5,N,N,N,N
+12/21/16,15,Y,2.25,0.75,good,Y,N,Y,N,Y,Y,pen gent,N,,,19,Y,1,12,Y,Y,Y,N
+1/7/17,9,Y,5.5,2.5,good,Y,Y,N,N,Y,Y,pen gent,N,,,7,N,2,7,Y,N,N,N
+1/10/17,6,N,2.5,,good,Y,N,N,N,Y,N,,N,,,3,Y,2,3,Y,N,N,N
+1/20/17,1,N,2.25,1.5,good,N,N,N,N,Y,N,,Y,pen gent pmx,0.74,1,Y,1,1,Y,N,N,N
+3/24/17,9,Y,4.25,3.5,poor,Y,Y,N,Y,N,N,,Y,pen gent pmx,2,1,N,1,4,Y,Y,Y,Y
+3/20/17,10,Y,3.75,1.25,good,Y,N,N,N,Y,Y,pen gent,N,,,4,Y,2,10,Y,Y,N,N
+3/30/17,4,Y,3,1.75,fair,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,3,Y,N,N,N
+4/2/17,5,Y,2.75,1.25,good,Y,N,N,N,N,Y,pen gent,N,,,3,Y,2,4,Y,Y,Y,Y
+4/5/17,7,Y,2.25,1.5,good,N,N,N,Y,N,Y,pen gent,N,,,4,N,1,6,Y,Y,Y,N
+4/9/17,3,N,2.75,1.25,fair,N,N,N,Y,Y,Y,pen gent,Y,gent,0.25,2,N,2,2,Y,Y,Y,N
+6/29/17,4,Y,3,1.5,poor,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,3,Y,N,N,N
+6/14/17,2,N,4,1.5,fair,N,Y,N,Y,N,N,,Y,pen gent,2.5,1,N,2,2,Y,Y,Y,N
+6/17/17,3,Y,1.75,1,good,N,N,N,N,N,Y,pen gent,N,,,1,N,1,1,Y,N,Y,Y
+6/23/17,6,Y,4,1,poor,Y,N,N,N,N,Y,gent,N,,,4,N,1,4,N,N,N,N
+10/3/17,2,Y,2.75,1.5,fair,N,N,N,N,N,Y,pen gent,N,,,1,N,2,2,Y,N,N,N
+1/22/18,5,Y,2.5,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,4,Y,2,4,Y,Y,N,N
+7/5/17,4,Y,2,1,poor,Y,N,Y,N,Y,Y,pen gent,N,,,2,N,2,4,Y,N,N,N
+12/18/17,1,N,2.25,1.75,fair,Y,N,N,N,Y,Y,pen gent,N,,,1,Y,1,1,Y,Y,N,N
+7/7/17,3,Y,2,2.5,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,2,1,N,N,N,N
+7/8/17,3,Y,2,1.25,fair,Y,N,N,N,N,Y,pen gent,N,,,1,N,2,3,N,N,N,N
+2/4/18,5,Y,1.75,0.75,good,Y,N,N,N,Y,Y,pen gent,N,,,2,N,2,4,Y,N,N,N
+8/5/17,5,N,2.5,1.25,good,Y,N,Y,N,Y,Y,pen gent,N,,,4,Y,1,4,Y,N,N,N
+7/15/17,5,Y,2.75,1.5,good,N,Y,N,N,N,Y,pen,Y,gent,0.75,3,N,,0,Y,N,N,N
+5/30/18,5,Y,2.75,1.25,poor,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,3,Y,Y,N,Y
+8/1/17,3,Y,2.75,1.25,good,Y,N,N,N,N,N,,N,,,1,N,1,2,N,N,N,Y
+8/29/17,13,Y,4,2,good,Y,Y,N,Y,Y,Y,pen gent,N,,,14,Y,3,11,Y,N,N,N
+9/5/17,2,N,2.75,2.5,poor,N,N,N,N,Y,Y,pen gent,N,,,1,Y,1,1,Y,Y,N,Y
+9/8/17,6,Y,2,2,good,Y,N,N,Y,N,Y,pen gent,N,,,5,N,2,5,Y,N,N,N
+9/12/17,9,Y,4.25,1.5,good,Y,Y,N,N,N,Y,pen gent,N,,,4,N,2,4,Y,N,N,N
+9/22/17,5,Y,2,1,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,2,4,Y,N,N,N
+11/30/17,5,Y,2,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,3,2,Y,N,Y,Y
+12/2/17,5,Y,2.75,1,fair,Y,N,N,N,Y,Y,pen gent,Y,pen gent,0,2,N,2,4,Y,N,N,N
+3/21/18,7,Y,3.25,1,good,Y,Y,N,Y,Y,Y,pen,N,,,2,N,2,5,Y,Y,Y,N
+2/4/18,6,Y,2.75,2,good,Y,N,Y,N,N,N,,Y,gent pmx,0.24,3,Y,2,6,Y,N,N,N
+1/13/18,4,Y,1.75,1.25,fair,N,N,N,N,N,Y,pen gent,N,,,1,N,2,4,N,N,N,N
+3/21/18,9,Y,2.75,1,good,Y,N,N,Y,Y,Y,enro,N,,,9,Y,3,9,Y,Y,Y,Y
+3/27/18,4,Y,2.25,6,good,Y,N,N,N,Y,Y,pen gent,N,,,1,N,1,2,Y,N,N,N
+4/10/18,5,Y,2.75,1.25,good,Y,Y,N,N,N,Y,pen gent,N,,,3,N,2,3,Y,N,Y,Y
+4/12/18,4,Y,2.25,1,fair,Y,N,N,N,N,Y,pen gent,N,,,1,N,2,2,Y,Y,Y,N
+4/23/18,5,Y,2.25,2,poor,Y,N,N,N,N,Y,pen enro,Y,pmx,1.25,1,Y,2,4,Y,N,N,N
+4/24/18,10,N,3,1.5,fair,Y,Y,N,N,Y,Y,pen,Y,gent,,8,Y,2,9,Y,Y,Y,N
+5/18/18,3,Y,3.25,1.25,fair,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,3,N,N,N,N
+6/3/18,2,Y,2,1.5,good,Y,N,N,N,N,Y,pen,N,,,1,N,1,1,Y,Y,Y,Y
+6/11/18,3,Y,2.75,1.25,poor,N,N,N,N,N,Y,pen enro,N,,,1,Y,2,2,Y,N,N,N
+7/3/18,4,N,2.25,1,fair,Y,N,N,Y,Y,Y,pen gent,N,,,3,N,2,3,Y,N,N,N
+7/4/18,2,N,2.75,2.25,poor,Y,N,N,Y,N,Y,pen gent,N,,,2,Y,3,2,Y,N,Y,Y
+7/9/18,5,Y,1.75,2.5,good,Y,N,N,N,Y,Y,pen gent,Y,pen gent,0.5,2,Y,1,2,Y,N,N,N
+7/13/16,4,Y,2,1.5,fair,Y,N,N,N,N,N,,Y,pen clinda,0.75,3,N,1,3,Y,N,N,N
+7/28/18,7,Y,2.5,1.5,good,Y,N,N,Y,N,Y,gent,Y,pen,2,4,N,1,4,Y,N,N,N
+7/29/19,9,Y,2,1,good,Y,N,N,Y,Y,Y,pen,N,,,1,N,1,3,Y,Y,Y,N
+11/19/21,11,Y,4,1.5,fair,Y,N,N,N,Y,Y,pen gent,N,,,11,Y,3,11,Y,Y,Y,N
+11/16/21,3,Y,3.25,2.25,poor,N,N,N,N,N,Y,pen gent,N,,,3,N,1,3,Y,N,N,N
+10/15/21,4,Y,2.25,1.5,good,N,N,N,N,N,Y,pen gent,N,,,2,N,1,6,Y,N,N,N
+10/13/21,6,Y,2.75,1.75,fair,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,2,Y,Y,Y,N
+10/6/21,7,Y,3,1.25,good,Y,N,N,Y,N,Y,pen gent,N,,,2,Y,1,2,Y,N,N,N
+9/27/21,6,Y,2,1.25,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,9,N,N,N,N
+9/27/21,6,Y,2.25,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,6,Y,N,N,N
+9/7/21,6,N,4.25,1.75,good,Y,Y,N,Y,N,Y,pen gent,N,,,3,N,1,3,Y,Y,N,Y
+8/30/21,10,N,2.75,0.5,poor,Y,Y,N,N,Y,Y,pen gent,N,,,5,N,1,6,Y,Y,N,N
+8/27/21,7,Y,,,,Y,N,N,N,N,Y,pen amik,N,,,2,Y,1,7,Y,N,N,N
+8/25/21,6,Y,2.5,1.25,good,N,N,N,N,N,Y,pen gent,N,,,2,N,1,3,Y,Y,N,N
+8/25/21,7,Y,2.25,1,good,Y,N,N,N,N,Y,pen gent,N,,,4,N,1,4,Y,Y,N,N
+7/27/21,5,Y,4,2.5,good,N,Y,N,N,N,Y,pen gent,N,,,3,N,1,5,Y,Y,N,N
+7/27/21,4,Y,2.25,1.75,fair,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,3,N,N,N,N
+7/19/21,4,Y,3.75,1,excellent,Y,N,N,N,N,Y,pen gent,N,,,3,N,2,3,Y,N,N,Y
+7/12/21,4,Y,2.5,2,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,1,Y,N,N,N
+7/12/21,2,N,4.5,3,poor,Y,Y,N,N,Y,Y,pen gent,N,,,1,N,1,1,Y,Y,N,N
+7/8/21,3,Y,1.75,1,good,Y,N,N,N,N,Y,pen gent,N,,,6,N,1,3,Y,Y,Y,N
+6/30/21,6,Y,2,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,1,1,Y,Y,Y,N
+6/23/21,5,Y,2.5,0.5,good,Y,N,N,N,N,Y,pen gent,N,,,8,N,1,2,N,Y,N,N
+6/21/21,12,Y,4.25,1,good,Y,Y,N,N,Y,Y,pen gent,N,,,7,Y,2,8,Y,Y,Y,N
+6/16/21,4,Y,2,1.25,good,Y,N,N,Y,N,Y,pen gent,N,,,2,N,2,4,Y,Y,N,N
+6/7/21,5,Y,3,1.74,fair,Y,N,N,N,Y,Y,pen gent,N,,,5,N,1,4,N,Y,Y,N
+5/27/21,5,Y,1.25,1.5,good,N,N,N,N,N,Y,pen gent,N,,,3,Y,1,2,Y,Y,N,N
+5/24/21,6,Y,4.5,1.75,poor,Y,Y,N,Y,Y,Y,pen gent,N,,,6,Y,2,7,Y,Y,N,N
+5/24/21,4,Y,2,1.5,fair,N,N,N,N,N,Y,pen gent,N,,,2,N,1,3,Y,N,N,N
+5/7/21,4,Y,2.75,1.5,fair,Y,N,N,N,N,Y,pen gent,N,,,5,N,1,5,N,Y,Y,N
+4/26/21,3,Y,2.75,0.75,excellent,N,N,N,N,N,Y,pen gent,N,,,10,Y,1,9,N,N,N,N
+3/29/21,4,Y,2.75,2,fair,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,5,Y,Y,Y,N
+3/22/21,6,Y,2.75,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,9,Y,N,N,N
+3/16/21,7,Y,3.5,1,excellent,Y,N,N,Y,Y,Y,pen gent,N,,,14,Y,2,8,Y,Y,Y,N
+3/11/21,10,Y,1.75,0.75,excellent,Y,N,N,N,N,Y,pen gent,N,,,17,Y,2,14,Y,N,N,N
+3/11/21,5,Y,2,1,excellent,Y,N,N,N,N,Y,pen gent,N,,,5,Y,1,5,Y,Y,Y,N
+3/9/21,6,N,6,3.25,poor,N,Y,N,Y,Y,Y,pen gent,N,,,4,Y,2,7,Y,Y,Y,N
+3/1/21,9,Y,3,1.5,good,Y,N,N,N,Y,Y,pen gent,N,,,8,N,2,9,Y,Y,Y,N
+2/26/21,6,Y,3,1.25,fair,Y,N,N,N,N,Y,pen gent,N,,,5,N,1,5,Y,Y,Y,N
+2/23/21,7,Y,4.25,1.5,fair,Y,N,N,N,Y,Y,pen gent,N,,,3,Y,1,9,Y,Y,N,N
+2/8/21,3,N,2,1.25,fair,N,N,N,Y,Y,Y,pen gent,N,,,3,Y,2,3,Y,Y,Y,N
+2/5/21,5,Y,2.25,1,good,N,N,N,N,N,Y,pen gent,N,,,10,N,2,10,Y,Y,N,N
+12/21/21,7,Y,2,1,fair,Y,N,N,N,N,Y,pen gent,N,,,4,N,1,4,Y,Y,Y,N
+12/14/20,4,Y,1.25,1.25,excellent,N,N,N,N,N,Y,pen gent,N,,,2,N,2,2,Y,Y,Y,N
+12/8/20,5,Y,2.25,1.5,excellent,Y,N,N,N,N,Y,pen gent,N,,,4,N,1,3,Y,Y,Y,N
+12/2/20,5,Y,2,1.25,good,N,N,N,N,N,Y,pen gent,N,,,5,N,2,7,Y,N,Y,N
+11/30/20,8,Y,2.75,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,6,N,2,8,Y,Y,N,N
+11/25/20,10,Y,3.25,2.25,fair,N,Y,Y,N,Y,Y,pen gent,N,,,10,Y,2,17,Y,N,Y,N
+11/20/20,8,N,2.75,0.75,poor,Y,N,N,Y,Y,Y,pen gent,N,,,8,Y,1,8,Y,Y,N,N
+11/18/20,4,Y,1.75,1.5,excellent,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,5,N,Y,Y,N
+10/30/20,4,Y,2.25,2.5,good,Y,N,N,N,N,Y,pen gent,N,,,4,N,1,6,Y,N,N,N
+10/28/20,4,Y,2,2,good,N,N,N,N,N,Y,pen gent,Y,pen,1.25,4,N,2,3,Y,Y,N,N
+10/19/20,5,Y,3.25,2,excellent,Y,Y,N,Y,N,Y,pen gent,N,,,3,N,1,3,Y,N,N,N
+10/19/20,5,N,2.5,1.5,excellent,N,N,N,Y,Y,Y,pen gent,N,,,5,N,1,5,Y,N,N,N
+10/15/20,7,Y,4.75,1.5,excellent,N,Y,N,N,N,Y,pen gent,N,,,6,N,1,6,Y,Y,Y,N
+10/12/20,18,Y,3,1.5,fair,Y,Y,Y,Y,Y,Y,pen gent,N,,,16,Y,2,15,Y,Y,Y,N
+10/6/20,6,Y,3,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,1,N,2,1,Y,Y,Y,N
+10/5/20,5,Y,2,1.75,good,N,N,N,N,N,Y,pen gent,N,,,4,Y,1,4,Y,Y,Y,N
+9/29/20,5,Y,2.25,1,fair,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,5,Y,Y,Y,N
+9/21/20,4,Y,3,1.5,good,Y,N,N,N,N,Y,pen gent,N,,,3,N,2,5,Y,N,N,N
+9/21/20,4,Y,2.25,1,fair,Y,N,N,N,N,Y,pen gent,N,,,2,N,2,3,Y,N,N,N
+8/27/20,9,Y,4.5,1.5,fair,N,Y,N,Y,Y,Y,pen gent,N,,,7,Y,2,8,Y,Y,Y,N
+8/24/20,7,Y,3,3.5,poor,Y,N,N,N,N,Y,pen gent,N,,,10,N,2,14,Y,Y,Y,N
+8/20/20,3,Y,1.5,1.25,good,N,N,N,N,N,Y,pen gent,N,,,3,N,1,3,Y,N,N,N
+8/17/20,6,Y,2.25,1.25,fair,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,3,Y,Y,Y,N
+8/7/20,4,Y,2,1.75,good,N,N,N,N,N,Y,pen gent,N,,,3,N,2,4,Y,N,N,N
+8/4/20,7,Y,2,1,fair,Y,N,N,Y,N,Y,pen gent,N,,,7,N,1,10,Y,N,N,N
+8/3/20,3,Y,2.25,1.5,excellent,N,N,N,N,N,Y,pen gent,N,,,1,N,2,2,Y,N,N,N
+6/29/20,10,Y,2.5,1.25,excellent,Y,N,N,Y,N,Y,pen gent,N,,,8,Y,2,8,Y,N,N,N
+6/8/20,1,N,4,1,excellent,N,N,N,N,Y,Y,pen gent,N,,,1,N,1,1,Y,Y,Y,N
+5/20/20,5,Y,2,2.5,poor,N,N,N,N,N,Y,pen gent,N,,,3,Y,2,6,N,N,N,N
+5/5/20,8,Y,3,2,good,Y,N,N,Y,N,Y,pen gent,N,,,8,Y,2,11,Y,N,Y,N
+4/27/20,8,Y,1.75,1,fair,Y,N,N,N,N,Y,pen gent,N,,,6,N,1,5,N,N,N,N
+3/12/20,4,Y,2,1.75,fair,Y,N,N,N,N,Y,pen gent,N,,,3,N,1,5,Y,N,N,N
+3/12/20,6,N,1.75,1.25,good,N,N,N,Y,Y,Y,pen gent,N,,,5,Y,2,6,Y,N,N,N
+3/11/20,6,Y,3.5,1.25,fair,Y,Y,N,N,N,Y,pen gent,N,,,5,N,2,6,Y,N,N,N
+2/28/20,11,N,1.25,0.75,fair,N,N,N,N,Y,Y,pen gent,N,,,12,Y,1,12,Y,Y,Y,Y
+2/3/20,7,Y,2.25,1.5,good,Y,N,N,N,N,N,,N,,,4,N,1,5,Y,N,N,N
+2/3/20,10,Y,3.5,1.25,fair,N,Y,N,N,Y,Y,pen gent,N,,,5,N,1,5,Y,N,N,N
+1/21/20,8,Y,2.5,1,good,N,Y,N,N,Y,Y,pen gent,N,,,7,N,1,7,Y,Y,N,N
+1/13/20,1,N,3,1.75,good,N,Y,N,N,Y,Y,pen gent,N,,,1,N,1,1,Y,Y,N,N
+1/13/20,5,Y,2.5,1.75,good,N,N,N,N,N,Y,pen gent,N,,,5,N,1,5,Y,N,N,N
+1/7/20,6,Y,1.25,1.25,fair,N,N,N,N,N,Y,pen gent,N,,,3,N,1,5,Y,N,N,N
+12/27/19,16,Y,1.5,1,fair,N,N,N,Y,N,Y,pen gent,N,,,10,Y,1,10,Y,Y,N,N
+11/13/19,9,Y,5.75,1,excellent,N,Y,N,Y,N,Y,pen gent,N,,,5,N,1,9,Y,Y,Y,N
+10/29/19,6,N,4.5,1.25,good,N,Y,N,Y,Y,Y,pen gent,N,,,6,Y,1,6,Y,Y,N,N
+10/28/19,7,Y,1.5,0.75,good,N,N,N,N,N,Y,pen gent,N,,,4,Y,2,4,N,N,N,N
+10/3/19,7,Y,3.75,2.5,poor,N,Y,N,N,Y,Y,pen gent,N,,,5,N,1,7,Y,N,Y,N
+10/2/19,3,N,2,1,good,N,N,N,Y,Y,Y,pen gent,Y,pen,0.25,4,N,1,4,Y,Y,Y,N
+9/12/19,5,Y,2.25,2,poor,Y,N,N,N,N,Y,pen gent,N,,,2,N,1,2,N,Y,N,N
+9/9/19,8,Y,2.25,3,fair,Y,N,N,Y,N,Y,pen gent,Y,pen,0,6,Y,2,6,Y,Y,N,N
+9/3/19,9,Y,1.5,1.5,fair,N,N,N,N,Y,Y,cefa gent,Y,,0,8,Y,3,12,Y,Y,N,N
+8/28/19,3,Y,2,1.25,fair,Y,N,N,N,N,Y,pen gent,Y,pen gent,0,3,N,2,3,Y,N,N,Y
+8/23/19,11,Y,1.5,1,fair,Y,N,N,N,N,Y,pen gent,N,,,10,Y,1,10,N,Y,N,Y
