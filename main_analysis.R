@@ -5,17 +5,13 @@ library(logistf)
 
 
      #import data
-data <- read.csv('celio_retro_LP_GG_23.csv', 
+data <- read.csv('celio_retro_LP_GG_23.csv',
                  nrows=608,
                  colClasses=c("character","integer","factor",
-                                                          "numeric", "numeric", "factor",
-                                                          "factor", "factor", "factor",
-                                                          "factor", "factor", "factor",
-                                                          "factor", "factor", "factor",
-                                                          "numeric", "integer", "factor",
-                                                          "integer", "integer", "factor",
-                                                          "factor", "factor", "factor"
-                                                          ),
+                              "numeric", "numeric", rep("factor",11),
+                              "numeric", "integer",
+                              "factor", "integer", "integer",
+                              "factor", "factor", "factor", "factor"),
                  na.strings=c("", " "))
 data$date_pres <- as.Date(data$date_pres, format="%m/%d/%y")
 str(data)
@@ -51,6 +47,19 @@ model5 <- logistf(incis_infect ~ postop_nsaid_num + postop_nsaid_days,
                   data = data)
 summary(model5)
 
+model5a <- logistf(incis_infect ~ postop_nsaid_days, data = data)
+summary(model5a)
+
+or3 <- exp(model5a$coefficients)
+or.lower3 <- exp(model5a$ci.lower)
+or.upper3 <- exp(model5a$ci.upper)
+or.table3 <- as_tibble(round(cbind (or3, or.lower3, or.upper3),3),
+                      rownames = "predictor") %>%
+  slice(-1) %>%
+  rename('or'=or3, 'or.lower'=or.lower3, 'or.upper'=or.upper3)#tibble created for later plotting
+or.table3
+
+
      # Try modeling reflux?
 model6 <- logistf(postop_reflux ~ anes_time + bowel_resect + enterot + preop_antibio +
                     intraop_antibio + postop_antibio_days + postop_antibio_addnl +
@@ -82,7 +91,9 @@ frequency_reflux2
 or <- exp(model6d$coefficients)
 or.lower <- exp(model6d$ci.lower)
 or.upper <- exp(model6d$ci.upper)
-or.table <- round(cbind (or, or.lower, or.upper),3)
+or.table <- as_tibble(round(cbind (or, or.lower, or.upper),3),
+                      rownames = "predictor") %>%
+                       slice(-1)                    #tibble created for later plotting
 or.table
 
 other_comp_data <- data[,c(4:12, 14, 17:24)] %>% drop_na()
@@ -114,7 +125,11 @@ summary(model7f)
 or2 <- exp(model7f$coefficients)
 or.lower2 <- exp(model7f$ci.lower)
 or.upper2 <- exp(model7f$ci.upper)
-or.table2 <- round(cbind (or2, or.lower2, or.upper2),3)
+or.table2 <- round(cbind (or2, or.lower2, or.upper2),3) %>%
+  as_tibble(rownames="predictor") %>%
+  slice(-1) %>%
+  slice(2,1,3:6) %>%
+  rename('or'=or2, 'or.lower'=or.lower2, 'or.upper'=or.upper2)
 or.table2
 
      # Is the number of days in the hospital predictive of dismissal?
@@ -124,7 +139,10 @@ summary(model8)
 or3 <- exp(model8$coefficients)
 or.lower3 <- exp(model8$ci.lower)
 or.upper3 <- exp(model8$ci.upper)
-or.table3 <- round(cbind (or3, or.lower3, or.upper3),3)
+or.table3 <- round(cbind (or3, or.lower3, or.upper3),3) %>%
+  as_tibble(rownames = "predictor") %>%
+  slice(-1) %>%
+  rename('or'=or3, 'or.lower'=or.lower3, 'or.upper'=or.upper3)
 or.table3
 
 surv_dismis_data <- data[,c(2:12, 14, 17:24)] %>% drop_na()
@@ -146,3 +164,26 @@ summary(model9c) #too much separation in the data
 model.null <- logistf(surv_dismis ~ 1, data = data)
 step.model <- MASS::stepAIC(model9, scope = c(lower = model.null, upper = model9), trace = TRUE)
 summary(step.model) #agrees - nothing here is significant on its own
+
+# added recurrent colic separately
+rec.colic.data <- data[,c(7:8, 11, 13, 15, 18:25)] %>% drop_na()
+model10 <- logistf(rec_colic ~ ., data = rec.colic.data)
+summary(model10)
+model.null.colic <- logistf(rec_colic ~ 1, data = rec.colic.data)
+step.model.colic <- MASS::stepAIC(model10, scope = c(lower = model.null.colic, upper = model10),
+                                  trace = TRUE, direction = "both")
+#nothing is predictive in this model
+
+model11 <- logistf(rec_colic ~ anes_time + recov_qual, data = data)
+summary(model11)
+model12 <- update(model11, .~. - recov_qual)
+summary(model12)
+
+or4 <- exp(model12$coefficients)
+or.lower4 <- exp(model12$ci.lower)
+or.upper4 <- exp(model12$ci.upper)
+or.table4 <- round(cbind (or4, or.lower4, or.upper4),3) %>%
+  as_tibble(rownames = "predictor") %>%
+  slice(-1) %>%
+  rename('or'=or4, 'or.lower'=or.lower4, 'or.upper'=or.upper4)
+or.table4
