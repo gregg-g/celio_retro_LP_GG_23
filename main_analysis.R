@@ -15,6 +15,18 @@ data <- read.csv('celio_retro_LP_GG_23.csv',
                  na.strings=c("", " "))
 data$date_pres <- as.Date(data$date_pres, format="%m/%d/%y")
 str(data)
+     # add column for any preop or intraop antibiotics
+data <- data %>% mutate(pre_intra_antibio = if_else(preop_antibio=='Y'& intraop_antibio=='Y', "Y", "N"),
+                        .after = 17)
+     # add column for pen/gent vs any other combination
+data <- data %>% mutate(pen_gent_alone = if_else(preop_antibio_type=='pen gent'& intraop_antibio_type=='pen gent' & postop_antibio_addnl=='N', "Y", "N"),
+                        .after = 18)
+     # add column for preop antibiotics - pen/gent vs other
+data <- data %>% mutate(preop_antibio_type_short = if_else(preop_antibio_type == 'pen gent', "pen gent", "other"),
+                        .after = "preop_antibio_type")
+     # add column for intraop antibiotics - pen gent vs other
+data <- data %>% mutate(intraop_antibio_type_short = if_else(intraop_antibio_type == 'pen gent', "pen gent", "other"),
+                        .after = "intraop_antibio_type")
 
      # summarize data
 summary_table <- Hmisc::describe(data[,-1])    # The -1 so date is removed
@@ -22,22 +34,39 @@ summary_table
 
      # Model everything together
 model_all <- logistf(incis_infect ~ enterot + bowel_resect + preop_antibio + intraop_antibio +
-                       anes_time + recov_time + recov_qual, data = data)
+                       postop_antibio_days + anes_time + recov_time + recov_qual, data = data)
 summary(model_all)
+drop1(model_all, data = data)
+model_all_step1 <- update(model_all, .~. - postop_antibio_days)
+  drop1(model_all_step1, data = data)
+model_all_step2 <- update(model_all_step1, .~. - bowel_resect)
+  drop1(model_all_step2, data = data)
+model_all_step3 <- update(model_all_step2, .~. - anes_time)
+  drop1(model_all_step3)
+model_all_step4 <- update(model_all_step3, .~. - intraop_antibio)
+  drop1(model_all_step4)
+model_all_step5 <- update(model_all_step4, .~. - recov_qual)
+  drop1(model_all_step5)
+
      # Tried backwards elimination, everything was removed from model...
 
-     # Model individual components that are of interest
+     #  model antibiotic combinations of interest
+  
+     # Compare pre- and intra- pen/gent vs others
+antibio_model1 <- logistf(incis_infect ~ preop_antibio_type_short + intraop_antibio_type_short,
+                          data = data)
+summary(antibio_model1)
+     # does giving antibiotics pre- or intra- confer a benefit overall?
+antibio_model2 <- logistf(incis_infect ~ pre_intra_antibio, data = data)
+summary(antibio_model2)
+     # does pen/gent alone confer a benefit?
+antibio_model3 <- logistf(incis_infect ~ pen_gent_alone, data = data)
+summary(antibio_model3)
+#####################################
+     # Model other individual components that are of interest
 model1 <- logistf(incis_infect ~ enterot + bowel_resect,
                   data = data)
 summary(model1)
-
-model2 <- logistf(incis_infect ~ preop_antibio + intraop_antibio,
-                  data = data)
-summary(model2)
-
-model3 <- logistf(incis_infect ~ intraop_antibio_type + intraop_antibio_time,
-                  data = data)
-summary(model3)
 
 model4 <- logistf(incis_infect ~ anes_time + recov_time + recov_qual,
                   data = data)
