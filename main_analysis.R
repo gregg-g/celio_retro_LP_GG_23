@@ -51,17 +51,63 @@ model_all_step5 <- update(model_all_step4, .~. - recov_qual)
      # Tried backwards elimination, everything was removed from model...
 
      #  model antibiotic combinations of interest
-  
+     # compare benefit of pre-op or intra-op antibiotics yes/no
+antibio_model_a <- logistf(incis_infect ~ preop_antibio + intraop_antibio, data = data)
+antibio_model_b <- logistf(postop_reflux ~ preop_antibio + intraop_antibio, data = data)
+antibio_model_c <- logistf(other_comp ~ preop_antibio + intraop_antibio, data = data)
+ms1 <- modelsummary(list(antibio_model_a, antibio_model_b, antibio_model_c), statistic = NULL,
+             estimate = "{estimate}, [{conf.low}, {conf.high}]",
+             coef_omit = 1,
+             exponentiate = TRUE,
+             output = "data.frame")
+
      # Compare pre- and intra- pen/gent vs others
-antibio_model1 <- logistf(incis_infect ~ preop_antibio_type_short + intraop_antibio_type_short,
+antibio_model1a <- logistf(incis_infect ~ preop_antibio_type_short,
                           data = data)
-summary(antibio_model1)
+summary(antibio_model1a)
+antibio_model1b <- logistf(postop_reflux ~ preop_antibio_type_short,
+                           data = data)
+antibio_model1c <- logistf(other_comp ~ preop_antibio_type_short,
+                           data = data)
+antibio_model1d <- logistf(incis_infect ~ intraop_antibio_type_short,
+                           data = data)
+antibio_model1e <- logistf(postop_reflux ~ intraop_antibio_type_short,
+                           data = data)
+antibio_model1f <- logistf(other_comp ~ intraop_antibio_type_short,
+                           data = data)
+ms2 <- modelsummary(list(antibio_model1a, antibio_model1b, antibio_model1c,
+                         antibio_model1d, antibio_model1e, antibio_model1f),
+                    statistic = NULL,
+                    estimate = "{estimate}, [{conf.low}, {conf.high}]",
+                    coef_omit = 1,
+                    exponentiate = TRUE,
+                    output = "data.frame")
+
      # does giving antibiotics pre- or intra- confer a benefit overall?
-antibio_model2 <- logistf(incis_infect ~ pre_intra_antibio, data = data)
-summary(antibio_model2)
+antibio_model2a <- logistf(incis_infect ~ pre_intra_antibio, data = data)
+summary(antibio_model2a)
+antibio_model2b <- logistf(postop_reflux ~ pre_intra_antibio, data = data)
+antibio_model2c <- logistf(other_comp ~ pre_intra_antibio, data = data)
+ms3 <- modelsummary(list(antibio_model2a, antibio_model2b, antibio_model2c),
+                    statistic = NULL,
+                    estimate = "{estimate}, [{conf.low}, {conf.high}]",
+                    coef_omit = 1,
+                    exponentiate = TRUE,
+                    output = "data.frame")
+
      # does pen/gent alone confer a benefit?
-antibio_model3 <- logistf(incis_infect ~ pen_gent_alone, data = data)
+antibio_model3a <- logistf(incis_infect ~ pen_gent_alone, data = data)
 summary(antibio_model3)
+antibio_model3b <- logistf(postop_reflux ~ pen_gent_alone, data = data)
+antibio_model3c <- logistf(other_comp ~ pen_gent_alone, data = data)
+ms4 <- modelsummary(list(antibio_model3a, antibio_model3b, antibio_model3c),
+                    statistic = NULL,
+                    estimate = "{estimate}, [{conf.low}, {conf.high}]",
+                    coef_omit = 1,
+                    exponentiate = TRUE,
+                    output = "data.frame")
+str(ms4) # need to reverse the outcomes - 1/OR to model use of other antibiotics vs. just pen/gent
+
 #####################################
      # Model other individual components that are of interest
 model1 <- logistf(incis_infect ~ enterot + bowel_resect,
@@ -165,6 +211,17 @@ or.table2
 model8 <- logistf(surv_dismis ~ days_hosp, data = data)
 summary(model8)
      # The answer is 'possibly'...
+     # Filter out the 'boarding' patients to normalize the data
+hosp_data <- data %>% filter(days_hosp < 16)
+ggplot(data = data, aes(x=days_hosp)) + 
+  geom_histogram(bins = 50)
+summary(hosp_data$days_hosp)
+     # Does this model say anything different?
+model8a <- logistf(surv_dismis ~ days_hosp, data = hosp_data)
+summary(model8a)
+exp(model8a$coefficients)
+     # not really different - will keep the original analysis
+
 or3 <- exp(model8$coefficients)
 or.lower3 <- exp(model8$ci.lower)
 or.upper3 <- exp(model8$ci.upper)
