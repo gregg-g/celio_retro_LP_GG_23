@@ -8,7 +8,7 @@ plot_data$predictor <- c('# Days NSAIDs administered postop', 'Postop IV lidocai
                       'Additional antibiotics administered postop', 'Multiple NSAIDs administered (beyond 1)')
 
 plot_data %<>% add_row(predictor = 'Incidence of Incisional Infection', .before = 1) %>%
-  add_row(predictor = 'Postoperative Reflux', .before = 3) %>%
+  add_row(predictor = 'Postoperative Ileus', .before = 3) %>%
   add_row(predictor = 'Other Complications - Anesthetic Predictors', .before = 6) %>%
   add_row(predictor = "Excellent Recovery", .before = 7) %>%
   add_row(predictor = 'Other Complications - Non-anesthetic Predictors', .before = 11)
@@ -51,22 +51,22 @@ plot2_data <- tribble(
   ~Outcome, ~or, ~or.lower, ~or.upper,
   #########
   'Incisional Infection', 0.819, 0.381, 1.664,
-  'Postoperative Reflux', 1.137, 0.736, 1.741,
+  'Postoperative Ileus', 1.137, 0.736, 1.741,
   'Other Complications', 0.918, 0.639, 1.315,
   'Incisional Infection', 1.242, 0.600, 2.474,
-  'Postoperative Reflux', 1.597, 1.033, 2.453,
+  'Postoperative Ileus', 1.597, 1.033, 2.453,
   'Other Complications', 1.788, 1.237, 2.590,
   'Incisional Infection', 2.570, 0.312, 334.547,
-  'Postoperative Reflux', 0.922, 0.326, 3.138,
+  'Postoperative Ileus', 0.922, 0.326, 3.138,
   'Other Complications', 0.747, 0.294, 1.962,
   'Incisional Infection', 1.120, 0.362, 3.384,
-  'Postoperative Reflux', 0.721, 0.356, 1.429,
+  'Postoperative Ileus', 0.721, 0.356, 1.429,
   'Other Complications', 0.607, 0.329, 1.114,
   'Incisional Infection', 0.269, 0.002, 1.996,
-  'Postoperative Reflux', 1.884, 0.772, 4.269,
+  'Postoperative Ileus', 1.884, 0.772, 4.269,
   'Other Complications', 2.323, 1.053, 5.327,
   'Incisional Infection', 1.004, 0.103, 142.857,
-  'Postoperative Reflux', 3.663, 0.385, 500,
+  'Postoperative Ileus', 3.663, 0.385, 500,
   'Other Complications', 2.967, 0.481, 31.25
 )
 head(plot2_data, 20)
