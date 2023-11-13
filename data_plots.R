@@ -73,15 +73,15 @@ head(plot2_data, 20)
 plot2_data %<>% mutate(odds_ratio_num = as.character(or))
 plot2_data %<>% unite(odds_ratio_ci, or.lower, or.upper, sep = ' - ', remove = FALSE)
 plot2_data %<>% add_column(question = NA, .before = 1) %>%
-  add_row(question = 'A: Pre- or intraoperative antibiotic administration vs. none?',
+  add_row(question = 'A: Pre- or intraoperative antimicrobial administration vs. none?',
                         odds_ratio_num = 'Odds Ratio',
                         odds_ratio_ci = '95% CI',
                         .before = 1) %>%
   add_row(question = 'B: Penicillin/Gentamicin vs. any other combination?',
           .before = 8) %>%
-  add_row(question = 'C: Administering any antibiotic pre- or intraoperatively vs. none?',
+  add_row(question = 'C: Administering any antimicrobial pre- or intraoperatively vs. none?',
           .before = 15) %>%
-  add_row(question = 'D: Administering any antibiotic combination other than Penicillin/Gentamicin?',
+  add_row(question = 'D: Administering any antimicrobial combination other than Penicillin/Gentamicin?',
           .before = 19)
 plot2_data$question[c(2, 9)] <- 'preoperative administration'
 plot2_data$question[c(5, 12)] <- 'intraoperative administration'
@@ -108,7 +108,7 @@ plot2_data %>%
              fn.ci_norm = fpDrawDiamondCI,
              boxsize = 0.2,
              vertices = TRUE,
-             title = "Figure 2 - Forest plot of antibiotic factors associated with varioius outcomes after equine celiotomies",
+             title = "Figure 2 - Forest plot of antimicrobial factors associated with varioius outcomes after equine celiotomies",
              txt_gp = fpTxtGp(cex=0.4),
             colgap = unit(3, 'mm'))
 dev.off()
